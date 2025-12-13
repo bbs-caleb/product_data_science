@@ -1,0 +1,537 @@
+generated_at: '2025-12-13T17:01:35.300665Z'
+tasks:
+  - domain: '01_product_metrics'
+    slug: 'wau'
+    title: 'WAU'
+    status: 'planned'
+    tags: []
+  - domain: '01_product_metrics'
+    slug: 'dau'
+    title: 'DAU'
+    status: 'planned'
+    tags: []
+  - domain: '01_product_metrics'
+    slug: 'proxy_metrics'
+    title: 'Proxy Metrics'
+    status: 'planned'
+    tags: []
+  - domain: '01_product_metrics'
+    slug: 'session_analysis'
+    title: 'Session Analysis'
+    status: 'planned'
+    tags: []
+  - domain: '01_product_metrics'
+    slug: 'net_promoter_score'
+    title: 'Net Promoter Score'
+    status: 'planned'
+    tags: []
+  - domain: '01_product_metrics'
+    slug: 'promo_calendar'
+    title: 'Promo Calendar'
+    status: 'planned'
+    tags: []
+  - domain: '01_product_metrics'
+    slug: 'time_series_dashboard'
+    title: 'Time-Series Dashboard'
+    status: 'planned'
+    tags: []
+  - domain: '02_unit_economics'
+    slug: 'arpu_aov'
+    title: 'ARPU & AOV'
+    status: 'planned'
+    tags: []
+  - domain: '02_unit_economics'
+    slug: 'average_check'
+    title: 'Average Check'
+    status: 'planned'
+    tags: []
+  - domain: '02_unit_economics'
+    slug: 'monthly_recurring_revenue_mrr'
+    title: 'Monthly Recurring Revenue (MRR)'
+    status: 'planned'
+    tags: []
+  - domain: '02_unit_economics'
+    slug: 'payments_dashboard'
+    title: 'Payments Dashboard'
+    status: 'planned'
+    tags: []
+  - domain: '03_customer_value_management'
+    slug: 'retention_rate'
+    title: 'Retention Rate'
+    status: 'planned'
+    tags: []
+  - domain: '03_customer_value_management'
+    slug: 'cohort_retention'
+    title: 'Cohort Retention'
+    status: 'planned'
+    tags: []
+  - domain: '03_customer_value_management'
+    slug: 'churn_rate_i_sql'
+    title: 'Churn Rate I: SQL'
+    status: 'planned'
+    tags: []
+  - domain: '03_customer_value_management'
+    slug: 'churn_rate_ii_bootstrap'
+    title: 'Churn Rate II: Bootstrap'
+    status: 'planned'
+    tags: []
+  - domain: '04_marketing_and_growth'
+    slug: 'uplift_tree'
+    title: 'Uplift Tree'
+    status: 'planned'
+    tags: []
+  - domain: '04_marketing_and_growth'
+    slug: 'marketing_mix_modeling_mmm'
+    title: 'Marketing Mix Modeling (MMM)'
+    status: 'planned'
+    tags: []
+  - domain: '04_marketing_and_growth'
+    slug: 'smart_link_i_epsilon_greedy'
+    title: 'Smart-Link I: Epsilon-Greedy'
+    status: 'planned'
+    tags: []
+  - domain: '04_marketing_and_growth'
+    slug: 'dead_ad_alert'
+    title: 'Dead Ad Alert'
+    status: 'planned'
+    tags: []
+  - domain: '04_marketing_and_growth'
+    slug: 'asymmetric_metrics'
+    title: 'Asymmetric Metrics'
+    status: 'planned'
+    tags: []
+  - domain: '04_marketing_and_growth'
+    slug: 'gmroi_optimization'
+    title: 'GMROI Optimization'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'user_segmentation'
+    title: 'User Segmentation'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'cold_start'
+    title: 'Cold Start'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'decision_tree_scoring'
+    title: 'Decision Tree (Scoring)'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'k_means_posterization'
+    title: 'K-Means Posterization'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'match_groups'
+    title: 'Match Groups'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'match_items'
+    title: 'Match Items'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'similar_item_price'
+    title: 'Similar Item Price'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'recsys_live_streaming_platform'
+    title: 'RecSys Live-Streaming Platform'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'sku_uniqueness'
+    title: 'SKU Uniqueness'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'sku_embeddings'
+    title: 'SKU Embeddings'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'approximate_knn'
+    title: 'Approximate kNN'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'ndcg'
+    title: 'NDCG'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'recall_at_k'
+    title: 'Recall@K'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'bm25'
+    title: 'BM-25'
+    status: 'planned'
+    tags: []
+  - domain: '05_customer_segmentation_scoring'
+    slug: 'smart_cart_ranking'
+    title: 'Smart Cart Ranking'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'demand_forecast'
+    title: 'Demand Forecast'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'stock_supply'
+    title: 'Stock Supply'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'boosting_uncertainty'
+    title: 'Boosting Uncertainty'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'gradient_boosting'
+    title: 'Gradient Boosting'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'data_drift'
+    title: 'Data Drift'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'temporal_fusion_transformers'
+    title: 'Temporal Fusion Transformers'
+    status: 'planned'
+    tags: []
+  - domain: '06_demand_supply_forecasting'
+    slug: 'stocks_postprocessing'
+    title: 'Stocks (Postprocessing)'
+    status: 'planned'
+    tags: []
+  - domain: '07_pricing_revenue_optimization'
+    slug: 'surge_pricing'
+    title: 'Surge Pricing'
+    status: 'planned'
+    tags: []
+  - domain: '07_pricing_revenue_optimization'
+    slug: 'elasticity_feature'
+    title: 'Elasticity Feature'
+    status: 'planned'
+    tags: []
+  - domain: '07_pricing_revenue_optimization'
+    slug: 'competitor_price'
+    title: 'Competitor Price'
+    status: 'planned'
+    tags: []
+  - domain: '07_pricing_revenue_optimization'
+    slug: 'price_parser'
+    title: 'Price Parser'
+    status: 'planned'
+    tags: []
+  - domain: '07_pricing_revenue_optimization'
+    slug: 'target_margin'
+    title: 'Target Margin'
+    status: 'planned'
+    tags: []
+  - domain: '07_pricing_revenue_optimization'
+    slug: 'coca_cola_principle'
+    title: 'Coca-Cola Principle'
+    status: 'planned'
+    tags: []
+  - domain: '08_experimentations'
+    slug: 'smart_link_ii_ab_design'
+    title: 'Smart-Link II: A/B Design'
+    status: 'planned'
+    tags: []
+  - domain: '08_experimentations'
+    slug: 'kaggle_ab_test'
+    title: 'Kaggle: A/B Test'
+    status: 'planned'
+    tags: []
+  - domain: '08_experimentations'
+    slug: 't_tested_features'
+    title: 'T-Tested Features'
+    status: 'planned'
+    tags: []
+  - domain: '08_experimentations'
+    slug: 'quantile_t_test'
+    title: 'Quantile T-Test'
+    status: 'planned'
+    tags: []
+  - domain: '08_experimentations'
+    slug: 'causal_impact_analysis'
+    title: 'Causal Impact Analysis'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'hello_pytest'
+    title: 'Hello Pytest'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'mock_test'
+    title: 'Mock-Test'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'negative_tests'
+    title: 'Negative Tests'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'mutable_word_count'
+    title: 'Mutable Word Count'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'rotation_bug'
+    title: 'Rotation Bug'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'smape_debug'
+    title: 'sMAPE (Debug)'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'docstring_standardization'
+    title: 'Docstring'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'generators'
+    title: 'Generators'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'method_decorators'
+    title: 'Method Decorators'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'map_filter_reduce'
+    title: 'Map, Filter, Reduce'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'oop_i_class_vs_object'
+    title: 'OOP I: Class vs Object'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'oop_ii_principles'
+    title: 'OOP II: Principles'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'async_await'
+    title: 'Async/Await'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'url_parsing'
+    title: 'URL Parsing'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'yaml_config'
+    title: 'YAML Config'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'makefile'
+    title: 'Makefile'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'multiprocessing'
+    title: 'Multiprocessing'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'memoization'
+    title: 'Memoization'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'valid_emails'
+    title: 'Valid Emails'
+    status: 'planned'
+    tags: []
+  - domain: '09_engineering_skills'
+    slug: 'error_analysis'
+    title: 'Error Analysis'
+    status: 'planned'
+    tags: []
+  - domain: '10_data_platform_mlops'
+    slug: 'data_quality_pyspark'
+    title: 'Data Quality & PySpark'
+    status: 'planned'
+    tags: []
+  - domain: '10_data_platform_mlops'
+    slug: 'hello_docker'
+    title: 'Hello Docker'
+    status: 'planned'
+    tags: []
+  - domain: '10_data_platform_mlops'
+    slug: 'docker_compose'
+    title: 'Docker-Compose'
+    status: 'planned'
+    tags: []
+  - domain: '10_data_platform_mlops'
+    slug: 'anti_fraud_i_mlflow'
+    title: 'Anti-Fraud I: MLflow'
+    status: 'planned'
+    tags: []
+  - domain: '10_data_platform_mlops'
+    slug: 'anti_fraud_ii_dvc'
+    title: 'Anti-Fraud II: DVC'
+    status: 'planned'
+    tags: []
+  - domain: '10_data_platform_mlops'
+    slug: 'mcp_server'
+    title: 'MCP-Server'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'hello_bert'
+    title: 'Hello BERT'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'negation'
+    title: 'Negation'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'video_summary'
+    title: 'Video Summary'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'rag'
+    title: 'RAG'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'semantic_chunking'
+    title: 'Semantic Chunking'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'llm_classification'
+    title: 'LLM Classification'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'sql_rag'
+    title: 'SQL RAG'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'second_brain'
+    title: 'Second Brain'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'rag_eval'
+    title: 'RAG Eval'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'rag_courses_advisor'
+    title: 'RAG Courses Advisor'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'hello_gpt2'
+    title: 'Hello, GPT-2'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'bpe'
+    title: 'BPE'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'intent_classification'
+    title: 'Intent Classification'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'visual_intent_classification'
+    title: 'Visual Intent Classification'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'dwh_assistant'
+    title: 'DWH Assistant'
+    status: 'planned'
+    tags: []
+  - domain: '11_ai_nlp_llm_systems'
+    slug: 'suggest_service'
+    title: 'Suggest Service'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'yolo_detection'
+    title: 'YOLO Detection'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'sam'
+    title: 'SAM'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'captcha_solver'
+    title: 'Captcha Solver'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'face_id_i_triplet_loss'
+    title: 'Face ID I: Triplet Loss'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'face_id_ii_arcface_loss'
+    title: 'Face ID II: ArcFace Loss'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'parameter_efficient_fine_tuning'
+    title: 'Parameter Efficient Fine-Tuning'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'model_distillation'
+    title: 'Model Distillation'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'tasa_transformer'
+    title: 'TASA Transformer'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'moscow_i'
+    title: 'Moscow I'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'ocr_eval'
+    title: 'OCR Eval'
+    status: 'planned'
+    tags: []
+  - domain: '12_deep_learning_cv'
+    slug: 'calorie_tracker'
+    title: 'Calorie Tracker'
+    status: 'planned'
+    tags: []
