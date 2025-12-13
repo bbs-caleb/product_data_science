@@ -3,7 +3,7 @@ product_data_science
     Summary
     Product Data Science monorepo. Organized by product/business domains with simulator tasks as reproducible case studies.
 
-    Structure
+Structure
 - `01_product_metrics/` - Product Metrics
 - `02_unit_economics/` - Unit Economics
 - `03_customer_value_management/` - Retention and Churn 
@@ -18,9 +18,3 @@ product_data_science
 - `12_deep_learning_cv/` - Deep Learning and Computer Vision
     - `catalog.yml` — task registry (domain, status, tags)
     - `PORTFOLIO.md` — curated highlights for interviews
-
-    How to Use
-    - Each domain contains task folders directly:
-      `01_product_metrics/wau/`, `08_experimentations/quantile_t_test/`, etc.
-    - Each task includes `README.md` (case card) and `TECH.md` (implementation details)
-    - Repro instructions live in the task "Runbook" section
