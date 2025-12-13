@@ -1,30 +1,28 @@
-Summary
-WAU
+# WAU (Weekly Active Users)
 
-Domain
-Product Metrics
+## Context
+Metric for weekly product activity based on user submissions.
+Source: `default.churn_submits` (ClickHouse).
+One row = one submission attempt by a user for a task.
 
-Problem Statement
-TODO: Describe the business context and the exact task requirements.
+## Goal
+Compute WAU for the full period using a rolling 7-day window with a 1-day step.
+The current day must be included in the window.
 
-Inputs and Constraints
-TODO: Data schema, granularity, constraints, edge cases.
+Example:
+For day = 2022-09-07, window is 2022-09-01 .. 2022-09-07.
 
-Approach
-TODO: High-level solution outline. Link to TECH.md for details.
+## Output
+SQL output columns (strict order):
+1) day
+2) wau
 
-Validation
-TODO: Checks, tests, sanity checks, evaluation metrics.
+## Extended analysis (portfolio)
+Additionally compute:
+- dau (daily active users)
+- sticky_factor = dau / wau
 
-Result
-TODO: Key outputs and brief interpretation.
-
-Runbook
-- TODO: How to reproduce (commands, environment, data assumptions).
-
-Artifacts
-- reports/: figures, tables, final outputs
-- sql/: queries (if applicable)
-- notebooks/: exploration (if applicable)
-- src/: production-style code (if applicable)
-- tests/: automated tests (if applicable)
+## Deliverables
+- query.sql: WAU rolling window query
+- TECH.md: implementation details and alternatives
+- notebooks/analysis.ipynb: DAU vs WAU plot and sticky factor analysis
