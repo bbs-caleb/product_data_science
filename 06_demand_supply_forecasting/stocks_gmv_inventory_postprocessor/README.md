@@ -1,4 +1,4 @@
-# Forecast Governance: Supply-Constrained Demand Planning
+# Корректировка прогноза из-за OOS в метрике GMV и ранняя система алертов
 
 ## 1) Какая бизнес-задача решается 
 
