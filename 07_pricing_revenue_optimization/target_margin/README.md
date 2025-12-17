@@ -53,29 +53,21 @@
 Работаем на уровне **SKU-кандидата** (каждая строка = один SKU и одна цена-кандидат).
 
 ### GMV
-\[
-GMV_i = price_i \cdot qty_i
-\]
+GMV_i = price_i * qty_i
 
 ### Маржа (margin) на SKU-кандидате
-\[
-margin_i = \frac{price_i - cost_i}{price_i}
-\]
+margin_i = (price_i - cost_i) / price_i
 
 Маржа может быть отрицательной (loss leader / демпинг) - это нормально для части ассортимента.
 
 ### Взвешенная маржа категории (weighted margin)
 Взвешиваем маржу вкладом SKU в выручку (пенетрацией GMV):
 
-\[
-weighted\_margin = \frac{\sum_i GMV_i \cdot margin_i}{\sum_i GMV_i}
-\]
+weighted_margin = sum(GMV_i * margin_i) / sum(GMV_i)
 
 Целевое ограничение (guardrail):
 
-\[
-weighted\_margin \ge target\_margin
-\]
+weighted_margin >= target_margin
 
 ---
 
