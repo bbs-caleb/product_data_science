@@ -1,46 +1,40 @@
-/* WAU (7-day rolling, inclusive), plus DAU and Sticky Factor */
+with recursive
+    lvl as (select employee_id, 1 as level
+            from employees
+            where manager_id is null
 
-WITH daily_users AS (
-    -- Deduplicate to (day, user_id): multiple submits per day should count as 1 active user
-    SELECT
-        toDate(timestamp) AS day,
-        user_id
-    FROM default.churn_submits
-    GROUP BY day, user_id
-),
+            union all
 
-wau_by_day AS (
-    SELECT
-        day,
-        -- For a fixed day, WAU is identical across all rows of that day (window depends only on day).
-        -- any() safely collapses N identical values to 1 row/day (max/min would be equivalent).
-        any(wau) AS wau
-    FROM (
-        SELECT
-            day,
-            -- 7-day rolling window: [day-6 .. day] in calendar days
-            uniqExact(user_id) OVER (
-                ORDER BY day
-                RANGE BETWEEN 6 PRECEDING AND CURRENT ROW
-            ) AS wau
-        FROM daily_users
-    )
-    GROUP BY day
-),
+            select e.employee_id, l.level + 1
+            from lvl l
+                     join employees e
+                          on e.manager_id = l.employee_id),
+    rel as (select employee_id as manager_id, employee_id as subordinate_id
+            from employees
 
-dau_by_day AS (
-    SELECT
-        day,
-        uniqExact(user_id) AS dau
-    FROM daily_users
-    GROUP BY day
-)
+            union all
 
-SELECT
-    d.day AS day,
-    w.wau AS wau,
-    d.dau AS dau,
-    if(w.wau = 0, 0.0, d.dau / w.wau) AS sticky_factor
-FROM dau_by_day d
-JOIN wau_by_day w USING(day)
-ORDER BY day;
+            select r.manager_id, e.employee_id
+            from rel r
+                     join employees e
+                          on e.manager_id = r.subordinate_id),
+    agg as (select r.manager_id  as employee_id,
+                   count(*) - 1  as team_size,
+                   sum(e.salary) as budget
+            from rel r
+                     join employees e
+                          on e.employee_id = r.subordinate_id
+            group by r.manager_id)
+select e.employee_id,
+       e.employee_name,
+       l.level,
+       a.team_size,
+       a.budget
+from employees e
+         join lvl l
+              on l.employee_id = e.employee_id
+         join agg a
+              on a.employee_id = e.employee_id
+order by l.level asc,
+         a.budget desc,
+         e.employee_name asc;

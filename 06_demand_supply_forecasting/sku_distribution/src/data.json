@@ -1,0 +1,7910 @@
+{
+    "forecast_demand": [
+        {
+            "product": "sku_0001",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 43,
+                "50": 86,
+                "75": 97,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0001",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 48,
+                "50": 84,
+                "75": 92,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0001",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 57,
+                "50": 68,
+                "75": 101,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0002",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 51,
+                "50": 72,
+                "75": 101,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0002",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 45,
+                "50": 65,
+                "75": 114,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0002",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 56,
+                "50": 80,
+                "75": 120,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0003",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 34,
+                "50": 77,
+                "75": 97,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0003",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 57,
+                "50": 61,
+                "75": 109,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0003",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 30,
+                "50": 61,
+                "75": 92,
+                "90": 136
+            }
+        },
+        {
+            "product": "sku_0004",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 39,
+                "50": 86,
+                "75": 110,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0004",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 39,
+                "50": 90,
+                "75": 98,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0004",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 57,
+                "50": 63,
+                "75": 95,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0005",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 54,
+                "50": 86,
+                "75": 92,
+                "90": 142
+            }
+        },
+        {
+            "product": "sku_0005",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 42,
+                "50": 74,
+                "75": 119,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0005",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 48,
+                "50": 69,
+                "75": 91,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0006",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 53,
+                "50": 66,
+                "75": 115,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0006",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 59,
+                "50": 86,
+                "75": 120,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0006",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 30,
+                "50": 71,
+                "75": 94,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0007",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 39,
+                "50": 66,
+                "75": 101,
+                "90": 127
+            }
+        },
+        {
+            "product": "sku_0007",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 58,
+                "50": 90,
+                "75": 116,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0007",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 54,
+                "50": 89,
+                "75": 113,
+                "90": 142
+            }
+        },
+        {
+            "product": "sku_0008",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 44,
+                "50": 60,
+                "75": 115,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0008",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 44,
+                "50": 81,
+                "75": 109,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0008",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 53,
+                "50": 73,
+                "75": 120,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0009",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 33,
+                "50": 62,
+                "75": 117,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0009",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 30,
+                "50": 80,
+                "75": 101,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0009",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 58,
+                "50": 76,
+                "75": 118,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0010",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 39,
+                "50": 88,
+                "75": 106,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0010",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 30,
+                "50": 73,
+                "75": 113,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0010",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 39,
+                "50": 76,
+                "75": 100,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0011",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 59,
+                "50": 61,
+                "75": 93,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0011",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 39,
+                "50": 84,
+                "75": 111,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0011",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 52,
+                "50": 89,
+                "75": 118,
+                "90": 139
+            }
+        },
+        {
+            "product": "sku_0012",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 35,
+                "50": 61,
+                "75": 110,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0012",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 39,
+                "50": 67,
+                "75": 98,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0012",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 34,
+                "50": 61,
+                "75": 98,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0013",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 34,
+                "50": 78,
+                "75": 111,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0013",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 39,
+                "50": 66,
+                "75": 102,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0013",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 43,
+                "50": 82,
+                "75": 110,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0014",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 37,
+                "50": 87,
+                "75": 113,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0014",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 38,
+                "50": 63,
+                "75": 110,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0014",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 35,
+                "50": 78,
+                "75": 94,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0015",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 54,
+                "50": 84,
+                "75": 97,
+                "90": 142
+            }
+        },
+        {
+            "product": "sku_0015",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 52,
+                "50": 61,
+                "75": 100,
+                "90": 142
+            }
+        },
+        {
+            "product": "sku_0015",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 30,
+                "50": 87,
+                "75": 115,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0016",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 43,
+                "50": 82,
+                "75": 111,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0016",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 45,
+                "50": 68,
+                "75": 116,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0016",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 54,
+                "50": 71,
+                "75": 98,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0017",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 44,
+                "50": 62,
+                "75": 94,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0017",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 60,
+                "50": 76,
+                "75": 117,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0017",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 49,
+                "50": 64,
+                "75": 119,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0018",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 40,
+                "50": 70,
+                "75": 109,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0018",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 34,
+                "50": 81,
+                "75": 109,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0018",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 31,
+                "50": 86,
+                "75": 103,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0019",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 47,
+                "50": 90,
+                "75": 106,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0019",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 41,
+                "50": 68,
+                "75": 109,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0019",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 33,
+                "50": 72,
+                "75": 91,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0020",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 40,
+                "50": 77,
+                "75": 91,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0020",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 57,
+                "50": 75,
+                "75": 95,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0020",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 49,
+                "50": 84,
+                "75": 106,
+                "90": 139
+            }
+        },
+        {
+            "product": "sku_0021",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 57,
+                "50": 77,
+                "75": 115,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0021",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 40,
+                "50": 76,
+                "75": 110,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0021",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 43,
+                "50": 61,
+                "75": 99,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0022",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 44,
+                "50": 71,
+                "75": 93,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0022",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 32,
+                "50": 77,
+                "75": 92,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0022",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 34,
+                "50": 61,
+                "75": 102,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0023",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 60,
+                "50": 61,
+                "75": 91,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0023",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 40,
+                "50": 85,
+                "75": 98,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0023",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 44,
+                "50": 60,
+                "75": 95,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0024",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 36,
+                "50": 62,
+                "75": 106,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0024",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 30,
+                "50": 72,
+                "75": 116,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0024",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 35,
+                "50": 88,
+                "75": 113,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0025",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 34,
+                "50": 71,
+                "75": 114,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0025",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 36,
+                "50": 70,
+                "75": 117,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0025",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 39,
+                "50": 70,
+                "75": 95,
+                "90": 136
+            }
+        },
+        {
+            "product": "sku_0026",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 31,
+                "50": 82,
+                "75": 108,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0026",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 33,
+                "50": 85,
+                "75": 104,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0026",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 55,
+                "50": 80,
+                "75": 100,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0027",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 58,
+                "50": 80,
+                "75": 114,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0027",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 40,
+                "50": 83,
+                "75": 120,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0027",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 33,
+                "50": 84,
+                "75": 101,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0028",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 43,
+                "50": 68,
+                "75": 97,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0028",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 51,
+                "50": 88,
+                "75": 94,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0028",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 38,
+                "50": 80,
+                "75": 92,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0029",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 48,
+                "50": 61,
+                "75": 91,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0029",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 56,
+                "50": 79,
+                "75": 117,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0029",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 42,
+                "50": 83,
+                "75": 118,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0030",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 43,
+                "50": 60,
+                "75": 119,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0030",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 32,
+                "50": 81,
+                "75": 106,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0030",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 53,
+                "50": 69,
+                "75": 99,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0031",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 44,
+                "50": 61,
+                "75": 103,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0031",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 42,
+                "50": 60,
+                "75": 108,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0031",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 35,
+                "50": 83,
+                "75": 97,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0032",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 35,
+                "50": 82,
+                "75": 100,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0032",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 30,
+                "50": 88,
+                "75": 106,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0032",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 49,
+                "50": 62,
+                "75": 119,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0033",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 31,
+                "50": 84,
+                "75": 105,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0033",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 54,
+                "50": 79,
+                "75": 106,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0033",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 49,
+                "50": 84,
+                "75": 94,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0034",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 41,
+                "50": 63,
+                "75": 113,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0034",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 40,
+                "50": 74,
+                "75": 97,
+                "90": 139
+            }
+        },
+        {
+            "product": "sku_0034",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 48,
+                "50": 61,
+                "75": 107,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0035",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 41,
+                "50": 65,
+                "75": 99,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0035",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 38,
+                "50": 64,
+                "75": 118,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0035",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 48,
+                "50": 75,
+                "75": 111,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0036",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 48,
+                "50": 61,
+                "75": 113,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0036",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 46,
+                "50": 64,
+                "75": 107,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0036",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 57,
+                "50": 67,
+                "75": 105,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0037",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 60,
+                "50": 73,
+                "75": 92,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0037",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 31,
+                "50": 69,
+                "75": 109,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0037",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 46,
+                "50": 70,
+                "75": 99,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0038",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 30,
+                "50": 90,
+                "75": 102,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0038",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 56,
+                "50": 69,
+                "75": 91,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0038",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 36,
+                "50": 84,
+                "75": 95,
+                "90": 127
+            }
+        },
+        {
+            "product": "sku_0039",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 50,
+                "50": 82,
+                "75": 111,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0039",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 34,
+                "50": 83,
+                "75": 118,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0039",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 34,
+                "50": 81,
+                "75": 98,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0040",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 51,
+                "50": 66,
+                "75": 106,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0040",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 59,
+                "50": 61,
+                "75": 90,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0040",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 48,
+                "50": 70,
+                "75": 120,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0041",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 45,
+                "50": 67,
+                "75": 115,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0041",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 47,
+                "50": 79,
+                "75": 93,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0041",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 44,
+                "50": 75,
+                "75": 108,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0042",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 31,
+                "50": 60,
+                "75": 103,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0042",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 53,
+                "50": 66,
+                "75": 118,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0042",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 46,
+                "50": 81,
+                "75": 100,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0043",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 30,
+                "50": 90,
+                "75": 96,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0043",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 44,
+                "50": 80,
+                "75": 111,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0043",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 40,
+                "50": 87,
+                "75": 100,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0044",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 48,
+                "50": 62,
+                "75": 109,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0044",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 39,
+                "50": 82,
+                "75": 96,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0044",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 42,
+                "50": 82,
+                "75": 101,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0045",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 34,
+                "50": 74,
+                "75": 96,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0045",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 59,
+                "50": 73,
+                "75": 120,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0045",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 49,
+                "50": 70,
+                "75": 95,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0046",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 52,
+                "50": 83,
+                "75": 106,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0046",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 56,
+                "50": 85,
+                "75": 120,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0046",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 51,
+                "50": 85,
+                "75": 114,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0047",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 38,
+                "50": 66,
+                "75": 96,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0047",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 36,
+                "50": 77,
+                "75": 107,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0047",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 57,
+                "50": 73,
+                "75": 99,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0048",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 60,
+                "50": 74,
+                "75": 102,
+                "90": 139
+            }
+        },
+        {
+            "product": "sku_0048",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 43,
+                "50": 73,
+                "75": 114,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0048",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 48,
+                "50": 86,
+                "75": 110,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0049",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 51,
+                "50": 61,
+                "75": 90,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0049",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 60,
+                "50": 85,
+                "75": 115,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0049",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 44,
+                "50": 89,
+                "75": 114,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0050",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 53,
+                "50": 74,
+                "75": 115,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0050",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 37,
+                "50": 87,
+                "75": 104,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0050",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 33,
+                "50": 63,
+                "75": 99,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0051",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 44,
+                "50": 85,
+                "75": 107,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0051",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 35,
+                "50": 69,
+                "75": 104,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0051",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 44,
+                "50": 80,
+                "75": 107,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0052",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 46,
+                "50": 64,
+                "75": 112,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0052",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 39,
+                "50": 64,
+                "75": 117,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0052",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 30,
+                "50": 77,
+                "75": 108,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0053",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 55,
+                "50": 62,
+                "75": 115,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0053",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 40,
+                "50": 81,
+                "75": 90,
+                "90": 139
+            }
+        },
+        {
+            "product": "sku_0053",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 33,
+                "50": 73,
+                "75": 109,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0054",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 43,
+                "50": 73,
+                "75": 120,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0054",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 59,
+                "50": 74,
+                "75": 112,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0054",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 50,
+                "50": 72,
+                "75": 116,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0055",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 52,
+                "50": 65,
+                "75": 112,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0055",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 58,
+                "50": 84,
+                "75": 112,
+                "90": 142
+            }
+        },
+        {
+            "product": "sku_0055",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 59,
+                "50": 68,
+                "75": 98,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0056",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 55,
+                "50": 87,
+                "75": 117,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0056",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 35,
+                "50": 65,
+                "75": 119,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0056",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 31,
+                "50": 61,
+                "75": 120,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0057",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 50,
+                "50": 63,
+                "75": 102,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0057",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 60,
+                "50": 85,
+                "75": 99,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0057",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 35,
+                "50": 86,
+                "75": 106,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0058",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 50,
+                "50": 64,
+                "75": 104,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0058",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 56,
+                "50": 79,
+                "75": 93,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0058",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 39,
+                "50": 90,
+                "75": 100,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0059",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 54,
+                "50": 69,
+                "75": 99,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0059",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 48,
+                "50": 73,
+                "75": 104,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0059",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 34,
+                "50": 76,
+                "75": 96,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0060",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 49,
+                "50": 62,
+                "75": 109,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0060",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 32,
+                "50": 73,
+                "75": 113,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0060",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 39,
+                "50": 64,
+                "75": 119,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0061",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 48,
+                "50": 74,
+                "75": 95,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0061",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 44,
+                "50": 63,
+                "75": 105,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0061",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 31,
+                "50": 62,
+                "75": 107,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0062",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 40,
+                "50": 65,
+                "75": 93,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0062",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 30,
+                "50": 88,
+                "75": 118,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0062",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 56,
+                "50": 75,
+                "75": 101,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0063",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 34,
+                "50": 90,
+                "75": 120,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0063",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 39,
+                "50": 80,
+                "75": 107,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0063",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 50,
+                "50": 90,
+                "75": 95,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0064",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 49,
+                "50": 76,
+                "75": 117,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0064",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 56,
+                "50": 73,
+                "75": 110,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0064",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 40,
+                "50": 86,
+                "75": 120,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0065",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 31,
+                "50": 82,
+                "75": 109,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0065",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 44,
+                "50": 67,
+                "75": 96,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0065",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 47,
+                "50": 79,
+                "75": 117,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0066",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 37,
+                "50": 75,
+                "75": 113,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0066",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 52,
+                "50": 63,
+                "75": 92,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0066",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 59,
+                "50": 77,
+                "75": 114,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0067",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 30,
+                "50": 80,
+                "75": 116,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0067",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 52,
+                "50": 81,
+                "75": 101,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0067",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 34,
+                "50": 81,
+                "75": 99,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0068",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 45,
+                "50": 85,
+                "75": 101,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0068",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 44,
+                "50": 77,
+                "75": 106,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0068",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 45,
+                "50": 88,
+                "75": 108,
+                "90": 124
+            }
+        },
+        {
+            "product": "sku_0069",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 39,
+                "50": 77,
+                "75": 117,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0069",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 55,
+                "50": 66,
+                "75": 110,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0069",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 36,
+                "50": 78,
+                "75": 109,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0070",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 54,
+                "50": 72,
+                "75": 118,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0070",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 52,
+                "50": 67,
+                "75": 99,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0070",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 35,
+                "50": 73,
+                "75": 102,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0071",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 49,
+                "50": 90,
+                "75": 96,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0071",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 35,
+                "50": 69,
+                "75": 110,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0071",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 42,
+                "50": 89,
+                "75": 101,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0072",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 38,
+                "50": 86,
+                "75": 92,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0072",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 49,
+                "50": 73,
+                "75": 116,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0072",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 58,
+                "50": 73,
+                "75": 110,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0073",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 53,
+                "50": 76,
+                "75": 108,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0073",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 48,
+                "50": 80,
+                "75": 98,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0073",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 59,
+                "50": 74,
+                "75": 93,
+                "90": 136
+            }
+        },
+        {
+            "product": "sku_0074",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 30,
+                "50": 69,
+                "75": 118,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0074",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 34,
+                "50": 76,
+                "75": 102,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0074",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 55,
+                "50": 75,
+                "75": 108,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0075",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 54,
+                "50": 88,
+                "75": 120,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0075",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 52,
+                "50": 63,
+                "75": 98,
+                "90": 136
+            }
+        },
+        {
+            "product": "sku_0075",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 54,
+                "50": 62,
+                "75": 120,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0076",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 37,
+                "50": 77,
+                "75": 107,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0076",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 51,
+                "50": 71,
+                "75": 106,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0076",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 56,
+                "50": 77,
+                "75": 104,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0077",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 54,
+                "50": 89,
+                "75": 112,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0077",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 59,
+                "50": 61,
+                "75": 98,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0077",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 57,
+                "50": 76,
+                "75": 101,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0078",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 41,
+                "50": 60,
+                "75": 118,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0078",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 45,
+                "50": 65,
+                "75": 102,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0078",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 53,
+                "50": 72,
+                "75": 95,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0079",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 32,
+                "50": 81,
+                "75": 106,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0079",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 34,
+                "50": 83,
+                "75": 94,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0079",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 35,
+                "50": 64,
+                "75": 91,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0080",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 46,
+                "50": 67,
+                "75": 96,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0080",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 16,
+                "25": 41,
+                "50": 68,
+                "75": 104,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0080",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 31,
+                "50": 78,
+                "75": 100,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0081",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 37,
+                "50": 64,
+                "75": 107,
+                "90": 136
+            }
+        },
+        {
+            "product": "sku_0081",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 37,
+                "50": 78,
+                "75": 114,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0081",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 24,
+                "25": 34,
+                "50": 66,
+                "75": 112,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0082",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 37,
+                "50": 78,
+                "75": 120,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0082",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 45,
+                "50": 79,
+                "75": 113,
+                "90": 132
+            }
+        },
+        {
+            "product": "sku_0082",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 29,
+                "25": 36,
+                "50": 61,
+                "75": 94,
+                "90": 143
+            }
+        },
+        {
+            "product": "sku_0083",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 49,
+                "50": 66,
+                "75": 108,
+                "90": 131
+            }
+        },
+        {
+            "product": "sku_0083",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 34,
+                "50": 84,
+                "75": 112,
+                "90": 129
+            }
+        },
+        {
+            "product": "sku_0083",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 55,
+                "50": 86,
+                "75": 109,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0084",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 44,
+                "50": 82,
+                "75": 96,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0084",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 35,
+                "50": 63,
+                "75": 115,
+                "90": 136
+            }
+        },
+        {
+            "product": "sku_0084",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 39,
+                "50": 69,
+                "75": 115,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0085",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 58,
+                "50": 79,
+                "75": 96,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0085",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 49,
+                "50": 67,
+                "75": 91,
+                "90": 145
+            }
+        },
+        {
+            "product": "sku_0085",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 34,
+                "50": 82,
+                "75": 115,
+                "90": 139
+            }
+        },
+        {
+            "product": "sku_0086",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 45,
+                "50": 83,
+                "75": 92,
+                "90": 147
+            }
+        },
+        {
+            "product": "sku_0086",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 49,
+                "50": 85,
+                "75": 98,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0086",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 33,
+                "50": 64,
+                "75": 93,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0087",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 52,
+                "50": 61,
+                "75": 91,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0087",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 45,
+                "50": 88,
+                "75": 93,
+                "90": 133
+            }
+        },
+        {
+            "product": "sku_0087",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 44,
+                "50": 83,
+                "75": 95,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0088",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 58,
+                "50": 73,
+                "75": 104,
+                "90": 144
+            }
+        },
+        {
+            "product": "sku_0088",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 34,
+                "50": 78,
+                "75": 95,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0088",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 27,
+                "25": 56,
+                "50": 87,
+                "75": 93,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0089",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 41,
+                "50": 79,
+                "75": 104,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0089",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 43,
+                "50": 90,
+                "75": 109,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0089",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 41,
+                "50": 84,
+                "75": 114,
+                "90": 135
+            }
+        },
+        {
+            "product": "sku_0090",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 31,
+                "50": 83,
+                "75": 107,
+                "90": 126
+            }
+        },
+        {
+            "product": "sku_0090",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 17,
+                "25": 37,
+                "50": 79,
+                "75": 108,
+                "90": 137
+            }
+        },
+        {
+            "product": "sku_0090",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 28,
+                "25": 51,
+                "50": 84,
+                "75": 111,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0091",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 22,
+                "25": 41,
+                "50": 73,
+                "75": 120,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0091",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 51,
+                "50": 87,
+                "75": 102,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0091",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 47,
+                "50": 84,
+                "75": 93,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0092",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 46,
+                "50": 79,
+                "75": 91,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0092",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 49,
+                "50": 74,
+                "75": 99,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0092",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 26,
+                "25": 47,
+                "50": 85,
+                "75": 97,
+                "90": 122
+            }
+        },
+        {
+            "product": "sku_0093",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 34,
+                "50": 90,
+                "75": 106,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0093",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 34,
+                "50": 74,
+                "75": 95,
+                "90": 125
+            }
+        },
+        {
+            "product": "sku_0093",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 51,
+                "50": 82,
+                "75": 116,
+                "90": 128
+            }
+        },
+        {
+            "product": "sku_0094",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 51,
+                "50": 86,
+                "75": 113,
+                "90": 127
+            }
+        },
+        {
+            "product": "sku_0094",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 49,
+                "50": 69,
+                "75": 99,
+                "90": 130
+            }
+        },
+        {
+            "product": "sku_0094",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 23,
+                "25": 34,
+                "50": 83,
+                "75": 113,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0095",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 53,
+                "50": 71,
+                "75": 111,
+                "90": 120
+            }
+        },
+        {
+            "product": "sku_0095",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 10,
+                "25": 40,
+                "50": 60,
+                "75": 94,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0095",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 19,
+                "25": 36,
+                "50": 83,
+                "75": 111,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0096",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 39,
+                "50": 64,
+                "75": 91,
+                "90": 150
+            }
+        },
+        {
+            "product": "sku_0096",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 35,
+                "50": 67,
+                "75": 90,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0096",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 59,
+                "50": 62,
+                "75": 101,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0097",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 32,
+                "50": 63,
+                "75": 97,
+                "90": 138
+            }
+        },
+        {
+            "product": "sku_0097",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 36,
+                "50": 81,
+                "75": 105,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0097",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 20,
+                "25": 43,
+                "50": 78,
+                "75": 109,
+                "90": 148
+            }
+        },
+        {
+            "product": "sku_0098",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 30,
+                "25": 57,
+                "50": 89,
+                "75": 113,
+                "90": 140
+            }
+        },
+        {
+            "product": "sku_0098",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 25,
+                "25": 60,
+                "50": 60,
+                "75": 110,
+                "90": 149
+            }
+        },
+        {
+            "product": "sku_0098",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 11,
+                "25": 56,
+                "50": 67,
+                "75": 115,
+                "90": 142
+            }
+        },
+        {
+            "product": "sku_0099",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 15,
+                "25": 46,
+                "50": 89,
+                "75": 113,
+                "90": 146
+            }
+        },
+        {
+            "product": "sku_0099",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 13,
+                "25": 52,
+                "50": 80,
+                "75": 98,
+                "90": 123
+            }
+        },
+        {
+            "product": "sku_0099",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 18,
+                "25": 34,
+                "50": 71,
+                "75": 93,
+                "90": 141
+            }
+        },
+        {
+            "product": "sku_0100",
+            "marketplace": "Ozz",
+            "forecast_percentiles": {
+                "10": 14,
+                "25": 49,
+                "50": 72,
+                "75": 100,
+                "90": 134
+            }
+        },
+        {
+            "product": "sku_0100",
+            "marketplace": "WB",
+            "forecast_percentiles": {
+                "10": 12,
+                "25": 47,
+                "50": 67,
+                "75": 101,
+                "90": 121
+            }
+        },
+        {
+            "product": "sku_0100",
+            "marketplace": "YM",
+            "forecast_percentiles": {
+                "10": 21,
+                "25": 41,
+                "50": 61,
+                "75": 113,
+                "90": 120
+            }
+        }
+    ],
+    "bundle_sizes": [
+        {
+            "product": "sku_0001",
+            "type": "small",
+            "quantity": 6
+        },
+        {
+            "product": "sku_0001",
+            "type": "middle",
+            "quantity": 42
+        },
+        {
+            "product": "sku_0001",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0002",
+            "type": "small",
+            "quantity": 9
+        },
+        {
+            "product": "sku_0002",
+            "type": "middle",
+            "quantity": 48
+        },
+        {
+            "product": "sku_0002",
+            "type": "large",
+            "quantity": 92
+        },
+        {
+            "product": "sku_0003",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0003",
+            "type": "middle",
+            "quantity": 36
+        },
+        {
+            "product": "sku_0003",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0004",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0004",
+            "type": "middle",
+            "quantity": 38
+        },
+        {
+            "product": "sku_0004",
+            "type": "large",
+            "quantity": 92
+        },
+        {
+            "product": "sku_0005",
+            "type": "small",
+            "quantity": 11
+        },
+        {
+            "product": "sku_0005",
+            "type": "middle",
+            "quantity": 29
+        },
+        {
+            "product": "sku_0005",
+            "type": "large",
+            "quantity": 90
+        },
+        {
+            "product": "sku_0006",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0006",
+            "type": "middle",
+            "quantity": 46
+        },
+        {
+            "product": "sku_0006",
+            "type": "large",
+            "quantity": 62
+        },
+        {
+            "product": "sku_0007",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0007",
+            "type": "middle",
+            "quantity": 46
+        },
+        {
+            "product": "sku_0007",
+            "type": "large",
+            "quantity": 76
+        },
+        {
+            "product": "sku_0008",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0008",
+            "type": "middle",
+            "quantity": 35
+        },
+        {
+            "product": "sku_0008",
+            "type": "large",
+            "quantity": 99
+        },
+        {
+            "product": "sku_0009",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0009",
+            "type": "middle",
+            "quantity": 32
+        },
+        {
+            "product": "sku_0009",
+            "type": "large",
+            "quantity": 97
+        },
+        {
+            "product": "sku_0010",
+            "type": "small",
+            "quantity": 5
+        },
+        {
+            "product": "sku_0010",
+            "type": "middle",
+            "quantity": 21
+        },
+        {
+            "product": "sku_0010",
+            "type": "large",
+            "quantity": 63
+        },
+        {
+            "product": "sku_0011",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0011",
+            "type": "middle",
+            "quantity": 23
+        },
+        {
+            "product": "sku_0011",
+            "type": "large",
+            "quantity": 57
+        },
+        {
+            "product": "sku_0012",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0012",
+            "type": "middle",
+            "quantity": 32
+        },
+        {
+            "product": "sku_0012",
+            "type": "large",
+            "quantity": 68
+        },
+        {
+            "product": "sku_0013",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0013",
+            "type": "middle",
+            "quantity": 28
+        },
+        {
+            "product": "sku_0013",
+            "type": "large",
+            "quantity": 75
+        },
+        {
+            "product": "sku_0014",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0014",
+            "type": "middle",
+            "quantity": 27
+        },
+        {
+            "product": "sku_0014",
+            "type": "large",
+            "quantity": 100
+        },
+        {
+            "product": "sku_0015",
+            "type": "small",
+            "quantity": 5
+        },
+        {
+            "product": "sku_0015",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0015",
+            "type": "large",
+            "quantity": 95
+        },
+        {
+            "product": "sku_0016",
+            "type": "small",
+            "quantity": 12
+        },
+        {
+            "product": "sku_0016",
+            "type": "middle",
+            "quantity": 40
+        },
+        {
+            "product": "sku_0016",
+            "type": "large",
+            "quantity": 95
+        },
+        {
+            "product": "sku_0017",
+            "type": "small",
+            "quantity": 3
+        },
+        {
+            "product": "sku_0017",
+            "type": "middle",
+            "quantity": 49
+        },
+        {
+            "product": "sku_0017",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0018",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0018",
+            "type": "middle",
+            "quantity": 28
+        },
+        {
+            "product": "sku_0018",
+            "type": "large",
+            "quantity": 71
+        },
+        {
+            "product": "sku_0019",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0019",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0019",
+            "type": "large",
+            "quantity": 79
+        },
+        {
+            "product": "sku_0020",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0020",
+            "type": "middle",
+            "quantity": 44
+        },
+        {
+            "product": "sku_0020",
+            "type": "large",
+            "quantity": 69
+        },
+        {
+            "product": "sku_0021",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0021",
+            "type": "middle",
+            "quantity": 30
+        },
+        {
+            "product": "sku_0021",
+            "type": "large",
+            "quantity": 99
+        },
+        {
+            "product": "sku_0022",
+            "type": "small",
+            "quantity": 15
+        },
+        {
+            "product": "sku_0022",
+            "type": "middle",
+            "quantity": 50
+        },
+        {
+            "product": "sku_0022",
+            "type": "large",
+            "quantity": 60
+        },
+        {
+            "product": "sku_0023",
+            "type": "small",
+            "quantity": 16
+        },
+        {
+            "product": "sku_0023",
+            "type": "middle",
+            "quantity": 48
+        },
+        {
+            "product": "sku_0023",
+            "type": "large",
+            "quantity": 63
+        },
+        {
+            "product": "sku_0024",
+            "type": "small",
+            "quantity": 6
+        },
+        {
+            "product": "sku_0024",
+            "type": "middle",
+            "quantity": 22
+        },
+        {
+            "product": "sku_0024",
+            "type": "large",
+            "quantity": 56
+        },
+        {
+            "product": "sku_0025",
+            "type": "small",
+            "quantity": 5
+        },
+        {
+            "product": "sku_0025",
+            "type": "middle",
+            "quantity": 49
+        },
+        {
+            "product": "sku_0025",
+            "type": "large",
+            "quantity": 89
+        },
+        {
+            "product": "sku_0026",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0026",
+            "type": "middle",
+            "quantity": 32
+        },
+        {
+            "product": "sku_0026",
+            "type": "large",
+            "quantity": 73
+        },
+        {
+            "product": "sku_0027",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0027",
+            "type": "middle",
+            "quantity": 44
+        },
+        {
+            "product": "sku_0027",
+            "type": "large",
+            "quantity": 80
+        },
+        {
+            "product": "sku_0028",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0028",
+            "type": "middle",
+            "quantity": 46
+        },
+        {
+            "product": "sku_0028",
+            "type": "large",
+            "quantity": 69
+        },
+        {
+            "product": "sku_0029",
+            "type": "small",
+            "quantity": 2
+        },
+        {
+            "product": "sku_0029",
+            "type": "middle",
+            "quantity": 45
+        },
+        {
+            "product": "sku_0029",
+            "type": "large",
+            "quantity": 62
+        },
+        {
+            "product": "sku_0030",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0030",
+            "type": "middle",
+            "quantity": 35
+        },
+        {
+            "product": "sku_0030",
+            "type": "large",
+            "quantity": 63
+        },
+        {
+            "product": "sku_0031",
+            "type": "small",
+            "quantity": 15
+        },
+        {
+            "product": "sku_0031",
+            "type": "middle",
+            "quantity": 24
+        },
+        {
+            "product": "sku_0031",
+            "type": "large",
+            "quantity": 57
+        },
+        {
+            "product": "sku_0032",
+            "type": "small",
+            "quantity": 12
+        },
+        {
+            "product": "sku_0032",
+            "type": "middle",
+            "quantity": 30
+        },
+        {
+            "product": "sku_0032",
+            "type": "large",
+            "quantity": 75
+        },
+        {
+            "product": "sku_0033",
+            "type": "small",
+            "quantity": 4
+        },
+        {
+            "product": "sku_0033",
+            "type": "middle",
+            "quantity": 38
+        },
+        {
+            "product": "sku_0033",
+            "type": "large",
+            "quantity": 57
+        },
+        {
+            "product": "sku_0034",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0034",
+            "type": "middle",
+            "quantity": 42
+        },
+        {
+            "product": "sku_0034",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0035",
+            "type": "small",
+            "quantity": 5
+        },
+        {
+            "product": "sku_0035",
+            "type": "middle",
+            "quantity": 40
+        },
+        {
+            "product": "sku_0035",
+            "type": "large",
+            "quantity": 69
+        },
+        {
+            "product": "sku_0036",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0036",
+            "type": "middle",
+            "quantity": 46
+        },
+        {
+            "product": "sku_0036",
+            "type": "large",
+            "quantity": 52
+        },
+        {
+            "product": "sku_0037",
+            "type": "small",
+            "quantity": 12
+        },
+        {
+            "product": "sku_0037",
+            "type": "middle",
+            "quantity": 44
+        },
+        {
+            "product": "sku_0037",
+            "type": "large",
+            "quantity": 81
+        },
+        {
+            "product": "sku_0038",
+            "type": "small",
+            "quantity": 6
+        },
+        {
+            "product": "sku_0038",
+            "type": "middle",
+            "quantity": 27
+        },
+        {
+            "product": "sku_0038",
+            "type": "large",
+            "quantity": 81
+        },
+        {
+            "product": "sku_0039",
+            "type": "small",
+            "quantity": 4
+        },
+        {
+            "product": "sku_0039",
+            "type": "middle",
+            "quantity": 28
+        },
+        {
+            "product": "sku_0039",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0040",
+            "type": "small",
+            "quantity": 8
+        },
+        {
+            "product": "sku_0040",
+            "type": "middle",
+            "quantity": 28
+        },
+        {
+            "product": "sku_0040",
+            "type": "large",
+            "quantity": 57
+        },
+        {
+            "product": "sku_0041",
+            "type": "small",
+            "quantity": 16
+        },
+        {
+            "product": "sku_0041",
+            "type": "middle",
+            "quantity": 48
+        },
+        {
+            "product": "sku_0041",
+            "type": "large",
+            "quantity": 87
+        },
+        {
+            "product": "sku_0042",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0042",
+            "type": "middle",
+            "quantity": 44
+        },
+        {
+            "product": "sku_0042",
+            "type": "large",
+            "quantity": 90
+        },
+        {
+            "product": "sku_0043",
+            "type": "small",
+            "quantity": 8
+        },
+        {
+            "product": "sku_0043",
+            "type": "middle",
+            "quantity": 21
+        },
+        {
+            "product": "sku_0043",
+            "type": "large",
+            "quantity": 52
+        },
+        {
+            "product": "sku_0044",
+            "type": "small",
+            "quantity": 6
+        },
+        {
+            "product": "sku_0044",
+            "type": "middle",
+            "quantity": 24
+        },
+        {
+            "product": "sku_0044",
+            "type": "large",
+            "quantity": 98
+        },
+        {
+            "product": "sku_0045",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0045",
+            "type": "middle",
+            "quantity": 26
+        },
+        {
+            "product": "sku_0045",
+            "type": "large",
+            "quantity": 93
+        },
+        {
+            "product": "sku_0046",
+            "type": "small",
+            "quantity": 15
+        },
+        {
+            "product": "sku_0046",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0046",
+            "type": "large",
+            "quantity": 73
+        },
+        {
+            "product": "sku_0047",
+            "type": "small",
+            "quantity": 9
+        },
+        {
+            "product": "sku_0047",
+            "type": "middle",
+            "quantity": 38
+        },
+        {
+            "product": "sku_0047",
+            "type": "large",
+            "quantity": 51
+        },
+        {
+            "product": "sku_0048",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0048",
+            "type": "middle",
+            "quantity": 31
+        },
+        {
+            "product": "sku_0048",
+            "type": "large",
+            "quantity": 57
+        },
+        {
+            "product": "sku_0049",
+            "type": "small",
+            "quantity": 11
+        },
+        {
+            "product": "sku_0049",
+            "type": "middle",
+            "quantity": 27
+        },
+        {
+            "product": "sku_0049",
+            "type": "large",
+            "quantity": 100
+        },
+        {
+            "product": "sku_0050",
+            "type": "small",
+            "quantity": 15
+        },
+        {
+            "product": "sku_0050",
+            "type": "middle",
+            "quantity": 41
+        },
+        {
+            "product": "sku_0050",
+            "type": "large",
+            "quantity": 75
+        },
+        {
+            "product": "sku_0051",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0051",
+            "type": "middle",
+            "quantity": 29
+        },
+        {
+            "product": "sku_0051",
+            "type": "large",
+            "quantity": 70
+        },
+        {
+            "product": "sku_0052",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0052",
+            "type": "middle",
+            "quantity": 34
+        },
+        {
+            "product": "sku_0052",
+            "type": "large",
+            "quantity": 63
+        },
+        {
+            "product": "sku_0053",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0053",
+            "type": "middle",
+            "quantity": 49
+        },
+        {
+            "product": "sku_0053",
+            "type": "large",
+            "quantity": 82
+        },
+        {
+            "product": "sku_0054",
+            "type": "small",
+            "quantity": 3
+        },
+        {
+            "product": "sku_0054",
+            "type": "middle",
+            "quantity": 30
+        },
+        {
+            "product": "sku_0054",
+            "type": "large",
+            "quantity": 92
+        },
+        {
+            "product": "sku_0055",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0055",
+            "type": "middle",
+            "quantity": 32
+        },
+        {
+            "product": "sku_0055",
+            "type": "large",
+            "quantity": 92
+        },
+        {
+            "product": "sku_0056",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0056",
+            "type": "middle",
+            "quantity": 27
+        },
+        {
+            "product": "sku_0056",
+            "type": "large",
+            "quantity": 67
+        },
+        {
+            "product": "sku_0057",
+            "type": "small",
+            "quantity": 5
+        },
+        {
+            "product": "sku_0057",
+            "type": "middle",
+            "quantity": 28
+        },
+        {
+            "product": "sku_0057",
+            "type": "large",
+            "quantity": 71
+        },
+        {
+            "product": "sku_0058",
+            "type": "small",
+            "quantity": 10
+        },
+        {
+            "product": "sku_0058",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0058",
+            "type": "large",
+            "quantity": 100
+        },
+        {
+            "product": "sku_0059",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0059",
+            "type": "middle",
+            "quantity": 40
+        },
+        {
+            "product": "sku_0059",
+            "type": "large",
+            "quantity": 90
+        },
+        {
+            "product": "sku_0060",
+            "type": "small",
+            "quantity": 4
+        },
+        {
+            "product": "sku_0060",
+            "type": "middle",
+            "quantity": 50
+        },
+        {
+            "product": "sku_0060",
+            "type": "large",
+            "quantity": 69
+        },
+        {
+            "product": "sku_0061",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0061",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0061",
+            "type": "large",
+            "quantity": 53
+        },
+        {
+            "product": "sku_0062",
+            "type": "small",
+            "quantity": 11
+        },
+        {
+            "product": "sku_0062",
+            "type": "middle",
+            "quantity": 49
+        },
+        {
+            "product": "sku_0062",
+            "type": "large",
+            "quantity": 79
+        },
+        {
+            "product": "sku_0063",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0063",
+            "type": "middle",
+            "quantity": 40
+        },
+        {
+            "product": "sku_0063",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0064",
+            "type": "small",
+            "quantity": 8
+        },
+        {
+            "product": "sku_0064",
+            "type": "middle",
+            "quantity": 40
+        },
+        {
+            "product": "sku_0064",
+            "type": "large",
+            "quantity": 96
+        },
+        {
+            "product": "sku_0065",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0065",
+            "type": "middle",
+            "quantity": 24
+        },
+        {
+            "product": "sku_0065",
+            "type": "large",
+            "quantity": 91
+        },
+        {
+            "product": "sku_0066",
+            "type": "small",
+            "quantity": 8
+        },
+        {
+            "product": "sku_0066",
+            "type": "middle",
+            "quantity": 41
+        },
+        {
+            "product": "sku_0066",
+            "type": "large",
+            "quantity": 52
+        },
+        {
+            "product": "sku_0067",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0067",
+            "type": "middle",
+            "quantity": 35
+        },
+        {
+            "product": "sku_0067",
+            "type": "large",
+            "quantity": 67
+        },
+        {
+            "product": "sku_0068",
+            "type": "small",
+            "quantity": 3
+        },
+        {
+            "product": "sku_0068",
+            "type": "middle",
+            "quantity": 39
+        },
+        {
+            "product": "sku_0068",
+            "type": "large",
+            "quantity": 96
+        },
+        {
+            "product": "sku_0069",
+            "type": "small",
+            "quantity": 3
+        },
+        {
+            "product": "sku_0069",
+            "type": "middle",
+            "quantity": 29
+        },
+        {
+            "product": "sku_0069",
+            "type": "large",
+            "quantity": 51
+        },
+        {
+            "product": "sku_0070",
+            "type": "small",
+            "quantity": 8
+        },
+        {
+            "product": "sku_0070",
+            "type": "middle",
+            "quantity": 49
+        },
+        {
+            "product": "sku_0070",
+            "type": "large",
+            "quantity": 72
+        },
+        {
+            "product": "sku_0071",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0071",
+            "type": "middle",
+            "quantity": 46
+        },
+        {
+            "product": "sku_0071",
+            "type": "large",
+            "quantity": 66
+        },
+        {
+            "product": "sku_0072",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0072",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0072",
+            "type": "large",
+            "quantity": 67
+        },
+        {
+            "product": "sku_0073",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0073",
+            "type": "middle",
+            "quantity": 27
+        },
+        {
+            "product": "sku_0073",
+            "type": "large",
+            "quantity": 92
+        },
+        {
+            "product": "sku_0074",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0074",
+            "type": "middle",
+            "quantity": 25
+        },
+        {
+            "product": "sku_0074",
+            "type": "large",
+            "quantity": 86
+        },
+        {
+            "product": "sku_0075",
+            "type": "small",
+            "quantity": 16
+        },
+        {
+            "product": "sku_0075",
+            "type": "middle",
+            "quantity": 32
+        },
+        {
+            "product": "sku_0075",
+            "type": "large",
+            "quantity": 78
+        },
+        {
+            "product": "sku_0076",
+            "type": "small",
+            "quantity": 6
+        },
+        {
+            "product": "sku_0076",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0076",
+            "type": "large",
+            "quantity": 52
+        },
+        {
+            "product": "sku_0077",
+            "type": "small",
+            "quantity": 3
+        },
+        {
+            "product": "sku_0077",
+            "type": "middle",
+            "quantity": 43
+        },
+        {
+            "product": "sku_0077",
+            "type": "large",
+            "quantity": 67
+        },
+        {
+            "product": "sku_0078",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0078",
+            "type": "middle",
+            "quantity": 25
+        },
+        {
+            "product": "sku_0078",
+            "type": "large",
+            "quantity": 96
+        },
+        {
+            "product": "sku_0079",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0079",
+            "type": "middle",
+            "quantity": 25
+        },
+        {
+            "product": "sku_0079",
+            "type": "large",
+            "quantity": 52
+        },
+        {
+            "product": "sku_0080",
+            "type": "small",
+            "quantity": 17
+        },
+        {
+            "product": "sku_0080",
+            "type": "middle",
+            "quantity": 42
+        },
+        {
+            "product": "sku_0080",
+            "type": "large",
+            "quantity": 100
+        },
+        {
+            "product": "sku_0081",
+            "type": "small",
+            "quantity": 15
+        },
+        {
+            "product": "sku_0081",
+            "type": "middle",
+            "quantity": 48
+        },
+        {
+            "product": "sku_0081",
+            "type": "large",
+            "quantity": 100
+        },
+        {
+            "product": "sku_0082",
+            "type": "small",
+            "quantity": 13
+        },
+        {
+            "product": "sku_0082",
+            "type": "middle",
+            "quantity": 38
+        },
+        {
+            "product": "sku_0082",
+            "type": "large",
+            "quantity": 65
+        },
+        {
+            "product": "sku_0083",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0083",
+            "type": "middle",
+            "quantity": 33
+        },
+        {
+            "product": "sku_0083",
+            "type": "large",
+            "quantity": 85
+        },
+        {
+            "product": "sku_0084",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0084",
+            "type": "middle",
+            "quantity": 41
+        },
+        {
+            "product": "sku_0084",
+            "type": "large",
+            "quantity": 100
+        },
+        {
+            "product": "sku_0085",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0085",
+            "type": "middle",
+            "quantity": 40
+        },
+        {
+            "product": "sku_0085",
+            "type": "large",
+            "quantity": 56
+        },
+        {
+            "product": "sku_0086",
+            "type": "small",
+            "quantity": 20
+        },
+        {
+            "product": "sku_0086",
+            "type": "middle",
+            "quantity": 47
+        },
+        {
+            "product": "sku_0086",
+            "type": "large",
+            "quantity": 65
+        },
+        {
+            "product": "sku_0087",
+            "type": "small",
+            "quantity": 4
+        },
+        {
+            "product": "sku_0087",
+            "type": "middle",
+            "quantity": 45
+        },
+        {
+            "product": "sku_0087",
+            "type": "large",
+            "quantity": 55
+        },
+        {
+            "product": "sku_0088",
+            "type": "small",
+            "quantity": 8
+        },
+        {
+            "product": "sku_0088",
+            "type": "middle",
+            "quantity": 45
+        },
+        {
+            "product": "sku_0088",
+            "type": "large",
+            "quantity": 61
+        },
+        {
+            "product": "sku_0089",
+            "type": "small",
+            "quantity": 12
+        },
+        {
+            "product": "sku_0089",
+            "type": "middle",
+            "quantity": 47
+        },
+        {
+            "product": "sku_0089",
+            "type": "large",
+            "quantity": 95
+        },
+        {
+            "product": "sku_0090",
+            "type": "small",
+            "quantity": 19
+        },
+        {
+            "product": "sku_0090",
+            "type": "middle",
+            "quantity": 27
+        },
+        {
+            "product": "sku_0090",
+            "type": "large",
+            "quantity": 58
+        },
+        {
+            "product": "sku_0091",
+            "type": "small",
+            "quantity": 15
+        },
+        {
+            "product": "sku_0091",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0091",
+            "type": "large",
+            "quantity": 76
+        },
+        {
+            "product": "sku_0092",
+            "type": "small",
+            "quantity": 10
+        },
+        {
+            "product": "sku_0092",
+            "type": "middle",
+            "quantity": 37
+        },
+        {
+            "product": "sku_0092",
+            "type": "large",
+            "quantity": 53
+        },
+        {
+            "product": "sku_0093",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0093",
+            "type": "middle",
+            "quantity": 42
+        },
+        {
+            "product": "sku_0093",
+            "type": "large",
+            "quantity": 88
+        },
+        {
+            "product": "sku_0094",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0094",
+            "type": "middle",
+            "quantity": 38
+        },
+        {
+            "product": "sku_0094",
+            "type": "large",
+            "quantity": 61
+        },
+        {
+            "product": "sku_0095",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0095",
+            "type": "middle",
+            "quantity": 34
+        },
+        {
+            "product": "sku_0095",
+            "type": "large",
+            "quantity": 70
+        },
+        {
+            "product": "sku_0096",
+            "type": "small",
+            "quantity": 18
+        },
+        {
+            "product": "sku_0096",
+            "type": "middle",
+            "quantity": 41
+        },
+        {
+            "product": "sku_0096",
+            "type": "large",
+            "quantity": 91
+        },
+        {
+            "product": "sku_0097",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0097",
+            "type": "middle",
+            "quantity": 48
+        },
+        {
+            "product": "sku_0097",
+            "type": "large",
+            "quantity": 73
+        },
+        {
+            "product": "sku_0098",
+            "type": "small",
+            "quantity": 14
+        },
+        {
+            "product": "sku_0098",
+            "type": "middle",
+            "quantity": 33
+        },
+        {
+            "product": "sku_0098",
+            "type": "large",
+            "quantity": 59
+        },
+        {
+            "product": "sku_0099",
+            "type": "small",
+            "quantity": 7
+        },
+        {
+            "product": "sku_0099",
+            "type": "middle",
+            "quantity": 43
+        },
+        {
+            "product": "sku_0099",
+            "type": "large",
+            "quantity": 76
+        },
+        {
+            "product": "sku_0100",
+            "type": "small",
+            "quantity": 1
+        },
+        {
+            "product": "sku_0100",
+            "type": "middle",
+            "quantity": 23
+        },
+        {
+            "product": "sku_0100",
+            "type": "large",
+            "quantity": 94
+        }
+    ],
+    "transport_costs": [
+        {
+            "sku_0001": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 6,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0001": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0001": {
+                "YM": {
+                    "small": 5,
+                    "middle": 12,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0002": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0002": {
+                "WB": {
+                    "small": 6,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0002": {
+                "YM": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0003": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 6,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0003": {
+                "WB": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0003": {
+                "YM": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0004": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0004": {
+                "WB": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0004": {
+                "YM": {
+                    "small": 7,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0005": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0005": {
+                "WB": {
+                    "small": 2,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0005": {
+                "YM": {
+                    "small": 3,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0006": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0006": {
+                "WB": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0006": {
+                "YM": {
+                    "small": 7,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0007": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0007": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0007": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0008": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 6,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0008": {
+                "WB": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0008": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0009": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0009": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0009": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0010": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 6,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0010": {
+                "WB": {
+                    "small": 6,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0010": {
+                "YM": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0011": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 10,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0011": {
+                "WB": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0011": {
+                "YM": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0012": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0012": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0012": {
+                "YM": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0013": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 6,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0013": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0013": {
+                "YM": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0014": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0014": {
+                "WB": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0014": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0015": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 7,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0015": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0015": {
+                "YM": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0016": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0016": {
+                "WB": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0016": {
+                "YM": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0017": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0017": {
+                "WB": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0017": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0018": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0018": {
+                "WB": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0018": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0019": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 6,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0019": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0019": {
+                "YM": {
+                    "small": 7,
+                    "middle": 11,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0020": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0020": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0020": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0021": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0021": {
+                "WB": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0021": {
+                "YM": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0022": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0022": {
+                "WB": {
+                    "small": 6,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0022": {
+                "YM": {
+                    "small": 5,
+                    "middle": 12,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0023": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0023": {
+                "WB": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0023": {
+                "YM": {
+                    "small": 7,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0024": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 6,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0024": {
+                "WB": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0024": {
+                "YM": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0025": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0025": {
+                "WB": {
+                    "small": 3,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0025": {
+                "YM": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0026": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0026": {
+                "WB": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0026": {
+                "YM": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0027": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0027": {
+                "WB": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0027": {
+                "YM": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0028": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 10,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0028": {
+                "WB": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0028": {
+                "YM": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0029": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0029": {
+                "WB": {
+                    "small": 6,
+                    "middle": 9,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0029": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0030": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0030": {
+                "WB": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0030": {
+                "YM": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0031": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0031": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0031": {
+                "YM": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0032": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 6,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0032": {
+                "WB": {
+                    "small": 6,
+                    "middle": 7,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0032": {
+                "YM": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0033": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0033": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0033": {
+                "YM": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0034": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0034": {
+                "WB": {
+                    "small": 6,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0034": {
+                "YM": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0035": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0035": {
+                "WB": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0035": {
+                "YM": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0036": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0036": {
+                "WB": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0036": {
+                "YM": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0037": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0037": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0037": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0038": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0038": {
+                "WB": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0038": {
+                "YM": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0039": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0039": {
+                "WB": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0039": {
+                "YM": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0040": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0040": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0040": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0041": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0041": {
+                "WB": {
+                    "small": 6,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0041": {
+                "YM": {
+                    "small": 6,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0042": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0042": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0042": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0043": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0043": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0043": {
+                "YM": {
+                    "small": 6,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0044": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0044": {
+                "WB": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0044": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0045": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0045": {
+                "WB": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0045": {
+                "YM": {
+                    "small": 6,
+                    "middle": 8,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0046": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0046": {
+                "WB": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0046": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0047": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0047": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0047": {
+                "YM": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0048": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0048": {
+                "WB": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0048": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0049": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0049": {
+                "WB": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0049": {
+                "YM": {
+                    "small": 7,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0050": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 6,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0050": {
+                "WB": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0050": {
+                "YM": {
+                    "small": 7,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0051": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0051": {
+                "WB": {
+                    "small": 3,
+                    "middle": 11,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0051": {
+                "YM": {
+                    "small": 7,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0052": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0052": {
+                "WB": {
+                    "small": 6,
+                    "middle": 9,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0052": {
+                "YM": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0053": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0053": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0053": {
+                "YM": {
+                    "small": 4,
+                    "middle": 12,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0054": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0054": {
+                "WB": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0054": {
+                "YM": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0055": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0055": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0055": {
+                "YM": {
+                    "small": 4,
+                    "middle": 12,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0056": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0056": {
+                "WB": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0056": {
+                "YM": {
+                    "small": 7,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0057": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0057": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0057": {
+                "YM": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0058": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0058": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0058": {
+                "YM": {
+                    "small": 7,
+                    "middle": 10,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0059": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 6,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0059": {
+                "WB": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0059": {
+                "YM": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0060": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 7,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0060": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0060": {
+                "YM": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0061": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0061": {
+                "WB": {
+                    "small": 3,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0061": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0062": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0062": {
+                "WB": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0062": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0063": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0063": {
+                "WB": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0063": {
+                "YM": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0064": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 10,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0064": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0064": {
+                "YM": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0065": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 7,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0065": {
+                "WB": {
+                    "small": 2,
+                    "middle": 11,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0065": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0066": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0066": {
+                "WB": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0066": {
+                "YM": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0067": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0067": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0067": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0068": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0068": {
+                "WB": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0068": {
+                "YM": {
+                    "small": 7,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0069": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0069": {
+                "WB": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0069": {
+                "YM": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0070": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 10,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0070": {
+                "WB": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0070": {
+                "YM": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0071": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0071": {
+                "WB": {
+                    "small": 3,
+                    "middle": 7,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0071": {
+                "YM": {
+                    "small": 3,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0072": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 6,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0072": {
+                "WB": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0072": {
+                "YM": {
+                    "small": 5,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0073": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0073": {
+                "WB": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0073": {
+                "YM": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0074": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0074": {
+                "WB": {
+                    "small": 2,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0074": {
+                "YM": {
+                    "small": 7,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0075": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0075": {
+                "WB": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0075": {
+                "YM": {
+                    "small": 3,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0076": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0076": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0076": {
+                "YM": {
+                    "small": 7,
+                    "middle": 8,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0077": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0077": {
+                "WB": {
+                    "small": 2,
+                    "middle": 11,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0077": {
+                "YM": {
+                    "small": 3,
+                    "middle": 11,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0078": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0078": {
+                "WB": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0078": {
+                "YM": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0079": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0079": {
+                "WB": {
+                    "small": 6,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0079": {
+                "YM": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0080": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0080": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0080": {
+                "YM": {
+                    "small": 5,
+                    "middle": 12,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0081": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0081": {
+                "WB": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0081": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0082": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0082": {
+                "WB": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0082": {
+                "YM": {
+                    "small": 7,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0083": {
+                "Ozz": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0083": {
+                "WB": {
+                    "small": 6,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0083": {
+                "YM": {
+                    "small": 4,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0084": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0084": {
+                "WB": {
+                    "small": 6,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0084": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0085": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0085": {
+                "WB": {
+                    "small": 3,
+                    "middle": 11,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0085": {
+                "YM": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0086": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0086": {
+                "WB": {
+                    "small": 2,
+                    "middle": 7,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0086": {
+                "YM": {
+                    "small": 5,
+                    "middle": 12,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0087": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0087": {
+                "WB": {
+                    "small": 4,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0087": {
+                "YM": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0088": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0088": {
+                "WB": {
+                    "small": 6,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0088": {
+                "YM": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0089": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 7,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0089": {
+                "WB": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0089": {
+                "YM": {
+                    "small": 3,
+                    "middle": 12,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0090": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 7,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0090": {
+                "WB": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0090": {
+                "YM": {
+                    "small": 4,
+                    "middle": 11,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0091": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0091": {
+                "WB": {
+                    "small": 2,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0091": {
+                "YM": {
+                    "small": 5,
+                    "middle": 10,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0092": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 6,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0092": {
+                "WB": {
+                    "small": 2,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0092": {
+                "YM": {
+                    "small": 7,
+                    "middle": 12,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0093": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 6,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0093": {
+                "WB": {
+                    "small": 5,
+                    "middle": 11,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0093": {
+                "YM": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0094": {
+                "Ozz": {
+                    "small": 5,
+                    "middle": 7,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0094": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0094": {
+                "YM": {
+                    "small": 5,
+                    "middle": 12,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0095": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 6,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0095": {
+                "WB": {
+                    "small": 6,
+                    "middle": 7,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0095": {
+                "YM": {
+                    "small": 6,
+                    "middle": 9,
+                    "large": 14
+                }
+            }
+        },
+        {
+            "sku_0096": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0096": {
+                "WB": {
+                    "small": 2,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0096": {
+                "YM": {
+                    "small": 6,
+                    "middle": 8,
+                    "large": 18
+                }
+            }
+        },
+        {
+            "sku_0097": {
+                "Ozz": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 11
+                }
+            }
+        },
+        {
+            "sku_0097": {
+                "WB": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0097": {
+                "YM": {
+                    "small": 6,
+                    "middle": 8,
+                    "large": 17
+                }
+            }
+        },
+        {
+            "sku_0098": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0098": {
+                "WB": {
+                    "small": 6,
+                    "middle": 10,
+                    "large": 13
+                }
+            }
+        },
+        {
+            "sku_0098": {
+                "YM": {
+                    "small": 3,
+                    "middle": 12,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0099": {
+                "Ozz": {
+                    "small": 4,
+                    "middle": 7,
+                    "large": 15
+                }
+            }
+        },
+        {
+            "sku_0099": {
+                "WB": {
+                    "small": 4,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0099": {
+                "YM": {
+                    "small": 3,
+                    "middle": 10,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0100": {
+                "Ozz": {
+                    "small": 1,
+                    "middle": 8,
+                    "large": 12
+                }
+            }
+        },
+        {
+            "sku_0100": {
+                "WB": {
+                    "small": 5,
+                    "middle": 8,
+                    "large": 16
+                }
+            }
+        },
+        {
+            "sku_0100": {
+                "YM": {
+                    "small": 3,
+                    "middle": 9,
+                    "large": 16
+                }
+            }
+        }
+    ],
+    "warehouse_stocks": [
+        {
+            "product": "sku_0001",
+            "quantity": 306
+        },
+        {
+            "product": "sku_0002",
+            "quantity": 436
+        },
+        {
+            "product": "sku_0003",
+            "quantity": 362
+        },
+        {
+            "product": "sku_0004",
+            "quantity": 873
+        },
+        {
+            "product": "sku_0005",
+            "quantity": 811
+        },
+        {
+            "product": "sku_0006",
+            "quantity": 526
+        },
+        {
+            "product": "sku_0007",
+            "quantity": 638
+        },
+        {
+            "product": "sku_0008",
+            "quantity": 692
+        },
+        {
+            "product": "sku_0009",
+            "quantity": 540
+        },
+        {
+            "product": "sku_0010",
+            "quantity": 581
+        },
+        {
+            "product": "sku_0011",
+            "quantity": 334
+        },
+        {
+            "product": "sku_0012",
+            "quantity": 808
+        },
+        {
+            "product": "sku_0013",
+            "quantity": 925
+        },
+        {
+            "product": "sku_0014",
+            "quantity": 353
+        },
+        {
+            "product": "sku_0015",
+            "quantity": 675
+        },
+        {
+            "product": "sku_0016",
+            "quantity": 617
+        },
+        {
+            "product": "sku_0017",
+            "quantity": 560
+        },
+        {
+            "product": "sku_0018",
+            "quantity": 849
+        },
+        {
+            "product": "sku_0019",
+            "quantity": 527
+        },
+        {
+            "product": "sku_0020",
+            "quantity": 156
+        },
+        {
+            "product": "sku_0021",
+            "quantity": 869
+        },
+        {
+            "product": "sku_0022",
+            "quantity": 935
+        },
+        {
+            "product": "sku_0023",
+            "quantity": 982
+        },
+        {
+            "product": "sku_0024",
+            "quantity": 884
+        },
+        {
+            "product": "sku_0025",
+            "quantity": 167
+        },
+        {
+            "product": "sku_0026",
+            "quantity": 465
+        },
+        {
+            "product": "sku_0027",
+            "quantity": 540
+        },
+        {
+            "product": "sku_0028",
+            "quantity": 177
+        },
+        {
+            "product": "sku_0029",
+            "quantity": 384
+        },
+        {
+            "product": "sku_0030",
+            "quantity": 985
+        },
+        {
+            "product": "sku_0031",
+            "quantity": 978
+        },
+        {
+            "product": "sku_0032",
+            "quantity": 948
+        },
+        {
+            "product": "sku_0033",
+            "quantity": 733
+        },
+        {
+            "product": "sku_0034",
+            "quantity": 187
+        },
+        {
+            "product": "sku_0035",
+            "quantity": 205
+        },
+        {
+            "product": "sku_0036",
+            "quantity": 603
+        },
+        {
+            "product": "sku_0037",
+            "quantity": 568
+        },
+        {
+            "product": "sku_0038",
+            "quantity": 941
+        },
+        {
+            "product": "sku_0039",
+            "quantity": 345
+        },
+        {
+            "product": "sku_0040",
+            "quantity": 152
+        },
+        {
+            "product": "sku_0041",
+            "quantity": 446
+        },
+        {
+            "product": "sku_0042",
+            "quantity": 615
+        },
+        {
+            "product": "sku_0043",
+            "quantity": 784
+        },
+        {
+            "product": "sku_0044",
+            "quantity": 833
+        },
+        {
+            "product": "sku_0045",
+            "quantity": 692
+        },
+        {
+            "product": "sku_0046",
+            "quantity": 915
+        },
+        {
+            "product": "sku_0047",
+            "quantity": 260
+        },
+        {
+            "product": "sku_0048",
+            "quantity": 472
+        },
+        {
+            "product": "sku_0049",
+            "quantity": 283
+        },
+        {
+            "product": "sku_0050",
+            "quantity": 706
+        },
+        {
+            "product": "sku_0051",
+            "quantity": 452
+        },
+        {
+            "product": "sku_0052",
+            "quantity": 344
+        },
+        {
+            "product": "sku_0053",
+            "quantity": 162
+        },
+        {
+            "product": "sku_0054",
+            "quantity": 853
+        },
+        {
+            "product": "sku_0055",
+            "quantity": 639
+        },
+        {
+            "product": "sku_0056",
+            "quantity": 953
+        },
+        {
+            "product": "sku_0057",
+            "quantity": 837
+        },
+        {
+            "product": "sku_0058",
+            "quantity": 960
+        },
+        {
+            "product": "sku_0059",
+            "quantity": 763
+        },
+        {
+            "product": "sku_0060",
+            "quantity": 943
+        },
+        {
+            "product": "sku_0061",
+            "quantity": 532
+        },
+        {
+            "product": "sku_0062",
+            "quantity": 868
+        },
+        {
+            "product": "sku_0063",
+            "quantity": 966
+        },
+        {
+            "product": "sku_0064",
+            "quantity": 309
+        },
+        {
+            "product": "sku_0065",
+            "quantity": 454
+        },
+        {
+            "product": "sku_0066",
+            "quantity": 161
+        },
+        {
+            "product": "sku_0067",
+            "quantity": 665
+        },
+        {
+            "product": "sku_0068",
+            "quantity": 169
+        },
+        {
+            "product": "sku_0069",
+            "quantity": 394
+        },
+        {
+            "product": "sku_0070",
+            "quantity": 979
+        },
+        {
+            "product": "sku_0071",
+            "quantity": 591
+        },
+        {
+            "product": "sku_0072",
+            "quantity": 611
+        },
+        {
+            "product": "sku_0073",
+            "quantity": 777
+        },
+        {
+            "product": "sku_0074",
+            "quantity": 524
+        },
+        {
+            "product": "sku_0075",
+            "quantity": 548
+        },
+        {
+            "product": "sku_0076",
+            "quantity": 854
+        },
+        {
+            "product": "sku_0077",
+            "quantity": 420
+        },
+        {
+            "product": "sku_0078",
+            "quantity": 376
+        },
+        {
+            "product": "sku_0079",
+            "quantity": 962
+        },
+        {
+            "product": "sku_0080",
+            "quantity": 682
+        },
+        {
+            "product": "sku_0081",
+            "quantity": 519
+        },
+        {
+            "product": "sku_0082",
+            "quantity": 399
+        },
+        {
+            "product": "sku_0083",
+            "quantity": 821
+        },
+        {
+            "product": "sku_0084",
+            "quantity": 204
+        },
+        {
+            "product": "sku_0085",
+            "quantity": 816
+        },
+        {
+            "product": "sku_0086",
+            "quantity": 817
+        },
+        {
+            "product": "sku_0087",
+            "quantity": 442
+        },
+        {
+            "product": "sku_0088",
+            "quantity": 950
+        },
+        {
+            "product": "sku_0089",
+            "quantity": 805
+        },
+        {
+            "product": "sku_0090",
+            "quantity": 454
+        },
+        {
+            "product": "sku_0091",
+            "quantity": 684
+        },
+        {
+            "product": "sku_0092",
+            "quantity": 880
+        },
+        {
+            "product": "sku_0093",
+            "quantity": 236
+        },
+        {
+            "product": "sku_0094",
+            "quantity": 210
+        },
+        {
+            "product": "sku_0095",
+            "quantity": 231
+        },
+        {
+            "product": "sku_0096",
+            "quantity": 617
+        },
+        {
+            "product": "sku_0097",
+            "quantity": 853
+        },
+        {
+            "product": "sku_0098",
+            "quantity": 552
+        },
+        {
+            "product": "sku_0099",
+            "quantity": 266
+        },
+        {
+            "product": "sku_0100",
+            "quantity": 339
+        }
+    ]
+}
