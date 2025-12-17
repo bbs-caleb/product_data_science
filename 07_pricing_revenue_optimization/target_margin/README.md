@@ -1,30 +1,113 @@
-Summary
-Target Margin
+# Category Margin Guardrail Planner
+Инструмент планирования ценовых сценариев (regular + promo) с ограничением по марже категории
 
-Domain
-Pricing and Revenue Optimization
+## 1. Бизнес-задача
+В планировании спроса регулярно возникает конфликт:
+- промо/снижение цен увеличивает продажи и GMV,
+- но может уронить валовую маржу категории ниже финансового плана.
 
-Problem Statement
-TODO: Describe the business context and the exact task requirements.
+Планирование должно выдавать не просто прогноз спроса, а выполнимый план:
+- по выручке (GMV),
+- по маржинальности (взвешенная маржа категории),
+- с понятными действиями для маркетинга, коммерции и закупок.
 
-Inputs and Constraints
-TODO: Data schema, granularity, constraints, edge cases.
+Этот проект решает задачу выбора цен (1 цена на SKU) из набора кандидатов так,
+чтобы максимизировать GMV при выполнении маржинального ограничения на уровне категории.
 
-Approach
-TODO: High-level solution outline. Link to TECH.md for details.
+## 2. Что делает решение
+На вход подается таблица со строками вида "SKU x цена-кандидат" и прогнозом продаж (qty) на плановый горизонт (например, 7 дней).
 
-Validation
-TODO: Checks, tests, sanity checks, evaluation metrics.
+Инструмент:
+1) проверяет качество входных данных (cost/price/qty),
+2) рассчитывает GMV и маржу на уровне кандидатов,
+3) выбирает по 1 кандидату на SKU, максимизируя GMV,
+4) контролирует ограничение: weighted_margin(category) >= target_margin,
+5) формирует управленческие артефакты для планирования и коммуникаций.
 
-Result
-TODO: Key outputs and brief interpretation.
+## 3. Бизнес определения
+GMV = price * qty
 
-Runbook
-- TODO: How to reproduce (commands, environment, data assumptions).
+Маржа (по SKU-кандидату) = (price - cost) / price
+Маржа может быть отрицательной (loss leader, демпинг).
 
-Artifacts
-- reports/: figures, tables, final outputs
-- sql/: queries (if applicable)
-- notebooks/: exploration (if applicable)
-- src/: production-style code (if applicable)
-- tests/: automated tests (if applicable)
+Взвешенная маржа категории (weighted margin):
+weighted_margin = sum(GMV_i * margin_i) / sum(GMV_i)
+То есть вклад каждого SKU зависит от его доли в выручке (пенетрации GMV).
+
+## 4. Входные данные
+Файл CSV (например, выгрузка из Redash/ClickHouse):
+
+Обязательные поля:
+- sku: идентификатор товара
+- category: категория (или любая группировка для финансового плана)
+- cost: себестоимость (закуп)
+- price: цена-кандидат
+- qty: прогноз продаж в штуках на горизонт (например, 7 дней) при этой цене
+
+Дополнительно (опционально):
+- scenario_id: "regular" / "promo" / "competitor_response"
+- promo_flag: 0/1
+- price_floor / price_ceiling: ограничения политики
+- stock: ограничение по наличию (если есть)
+
+Target:
+- target_margin: целевая взвешенная маржа категории
+
+## 5. Выходные файлы (outputs/)
+- recommended_prices.csv
+  Одна строка на SKU: выбранная цена, прогноз qty, GMV, маржа, category.
+
+- category_summary.csv
+  Итоги по категории: GMV, weighted_margin, buffer_to_target, top contributors.
+
+- action_list.csv
+  Список действий для коммуникаций:
+  - какие SKU "тянут" маржу вниз при высокой пенетрации GMV
+  - какие SKU стоит пересогласовать с маркетингом/коммерцией
+  - какие SKU требуют работы с закупом/поставщиком (cost pressure)
+
+- data_quality_report.csv
+  Строки, исключенные из расчета, и причины (нулевая цена, отрицательный qty, пропуски).
+
+- alerts.md
+  Текстовые алерты в формате "что случилось / риск / что делать".
+
+## 6. Как используется в процессе планирования (операционный цикл)
+Еженедельно/ежедневно:
+1) Forecasting формирует прогноз qty для цен-кандидатов (regular и promo сценарии).
+2) Planner запускает инструмент для каждого сценария и категории.
+3) Если сценарий невыполним по марже:
+   - инструмент выпускает action_list и alerts для корректировок (скидка глубина, микс SKU, переговоры по cost).
+4) После согласования фиксируется итоговый ценовой план и план продаж.
+
+## 7. Алерты (что контролируем автоматически)
+- infeasible_scenario:
+  target_margin недостижим при любых кандидатах (нужна смена промо-микса/пересмотр cost).
+
+- low_margin_buffer:
+  weighted_margin близко к target (например, buffer < 1 п.п.) -> риск срыва плана из-за ошибок прогноза.
+
+- loss_leader_penetration:
+  отрицательная маржа у SKU с большой долей GMV -> риск по валовой прибыли.
+
+- top_contributors_shift:
+  резкая смена топ-SKU по вкладу в маржу -> повод проверить причины (cost, forecast, промо).
+
+## 8. Как запустить
+1) Подготовьте файл `data/extract.csv` (пример запроса в `query.sql`)
+2) Установите зависимости:
+   pip install -r requirements.txt
+3) Запустите:
+   python run.py --input data/extract.csv --target-margin 0.12 --outdir outputs --category COLA --scenario promo
+
+Параметры:
+- --target-margin: целевая взвешенная маржа (например 0.12 = 12%)
+- --category: фильтр категории (опционально)
+- --scenario: фильтр сценария (опционально)
+
+## 9. Что делается фундаментально
+- category_summary.csv: выполнение плана GMV и маржи + риск/буфер
+- action_list.csv: конкретные действия для маркетинга/коммерции/закупа
+- alerts.md: система раннего предупреждения
+- объяснение trade-off: где потеряли GMV, чтобы удержать маржу
+
