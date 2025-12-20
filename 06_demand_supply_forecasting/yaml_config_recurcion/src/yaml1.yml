@@ -1,0 +1,4 @@
+F0_path: Utils/JDC/bst.t7
+ASR_path: Utils/ASR/epoch_00100.pth
+sr: 24000
+use_gpu: true
