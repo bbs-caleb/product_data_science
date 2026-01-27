@@ -1,30 +1,32 @@
-Summary
-Retention Rate
+# Retention Rate Analysis
 
-Domain
-Customer Value Management (Lifecycle)
+Анализ удержания пользователей для оценки Product Market Fit дейтингового приложения.
 
-Problem Statement
-TODO: Describe the business context and the exact task requirements.
+![Retention Rate](retention_chart.png)
 
-Inputs and Constraints
-TODO: Data schema, granularity, constraints, edge cases.
+## Задача
 
-Approach
-TODO: High-level solution outline. Link to TECH.md for details.
+Расчёт еженедельного Retention Rate - доли пользователей, продолжающих использовать приложение спустя N недель после регистрации.
 
-Validation
-TODO: Checks, tests, sanity checks, evaluation metrics.
+## Данные
 
-Result
-TODO: Key outputs and brief interpretation.
+| Таблица | Описание |
+|---------|----------|
+| `retention_users` | user_id, username, registration_date |
+| `retention_users_activity` | user_id, date, активность (logins, messages, likes и др.) |
 
-Runbook
-- TODO: How to reproduce (commands, environment, data assumptions).
+## Метрика
 
-Artifacts
-- reports/: figures, tables, final outputs
-- sql/: queries (if applicable)
-- notebooks/: exploration (if applicable)
-- src/: production-style code (if applicable)
-- tests/: automated tests (if applicable)
+```
+Retention Rate = active_users / total_users
+```
+
+где `week` - порядковый номер недели с момента регистрации пользователя.
+
+## Результат
+
+| week | active_users | total_users | retention_percentage |
+|------|--------------|-------------|----------------|
+| 1    | 712          | 1000        | 0.712          |
+| 2    | 538          | 1000        | 0.538          |
+| ...  | ...          | ...         | ...            |
