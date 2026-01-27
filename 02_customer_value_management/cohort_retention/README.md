@@ -1,30 +1,42 @@
-Summary
-Cohort Retention
+# Cohort Retention
 
-Domain
-Customer Value Management (Lifecycle)
+Анализ удержания пользователей мобильного приложения PlantCare за 2024 год.
 
-Problem Statement
-TODO: Describe the business context and the exact task requirements.
+## Контекст
 
-Inputs and Constraints
-TODO: Data schema, granularity, constraints, edge cases.
+Во второй половине 2024 года наблюдался отток активных пользователей. Несмотря на рост новых установок, значительная часть аудитории перестала использовать приложение.
 
-Approach
-TODO: High-level solution outline. Link to TECH.md for details.
+## Задача
 
-Validation
-TODO: Checks, tests, sanity checks, evaluation metrics.
+Рассчитать Cohort Retention Rate - процент пользователей, продолжающих использовать продукт после регистрации.
 
-Result
-TODO: Key outputs and brief interpretation.
+**Критерии активности:** пользователь открыл приложение и использовал хотя бы одну ключевую функцию (заметки, карточки растений, напоминания, статьи, шеринг).
 
-Runbook
-- TODO: How to reproduce (commands, environment, data assumptions).
+**Возможные причины:**
+- Усиление конкуренции 
+- Внедрение платной подписки в июле 2024 с ограничением ранее бесплатных функций
 
-Artifacts
-- reports/: figures, tables, final outputs
-- sql/: queries (if applicable)
-- notebooks/: exploration (if applicable)
-- src/: production-style code (if applicable)
-- tests/: automated tests (if applicable)
+## Данные
+
+| Таблица | Описание |
+|---------|----------|
+| `cr_users` | user_id, email, full_name, reg_date |
+| `cr_user_actions` | action_id, user_id, action_date, action_type |
+
+## Результат
+
+SQL-запрос для расчёта retention rate по месячным когортам с разбивкой по календарным месяцам.
+
+## Визуализация
+
+**Retention curves**
+
+![Retention Curves](./notebooks/image.png)
+
+Кривые удержания по когортам - наглядно показывают динамику оттока пользователей.
+
+**Triangle chart (heatmap)**
+
+![Triangle Chart](./notebooks/subscription.png)
+
+Альтернативный способ визуализации - тепловая карта retention по когортам и месяцам.

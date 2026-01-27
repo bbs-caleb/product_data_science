@@ -17,7 +17,7 @@
 
 ![Bootstrap Distribution](notebooks/bootstrap_diagram_.png)
 
-## Основа -- 
+## Основа -- задача в процессе  
 
 ```python
 
