@@ -17,7 +17,7 @@
 2. Расчёт ROC-AUC на каждой выборке
 3. Определение квантилей для LCB и UCB
 
-![Bootstrap Distribution](notebooks/bootstrap_diagram.png)
+![Bootstrap Distribution](notebooks/bootstrap_diagram_.png)
 
 ## API
 
