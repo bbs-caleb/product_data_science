@@ -1,0 +1,5 @@
+https://en.wikipedia.org/wiki/Leakage_(machine_learning)
+
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html
+
+
