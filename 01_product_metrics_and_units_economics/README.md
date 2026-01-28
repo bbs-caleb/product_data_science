@@ -1,22 +1,16 @@
-Summary
-    Product health metrics and behavioral analytics used to monitor usage, engagement, and experience quality.
+# Product Metrics & Unit Economics
 
-    Scope
-    - Activity and engagement metrics
-- Session analytics and product signals
-- Reporting-ready outputs and dashboards
+Расчёт и анализ ключевых продуктовых метрик.
 
-    Key Skills
-    - SQL analytics and metric design
-- Data validation checks
-- Documentation of metric contracts
+## Проекты
 
-    Deliverables
-    - Metric definitions and calculation queries
-- Reproducible scripts/notebooks
-- Artifacts under reports/
-
-    Definition of Done
-    - Metric contract documented (definition, grain, filters)
-- Reproducible runbook included
-- Sanity checks implemented where applicable
+| Проект | Задача |
+|--------|--------|
+| [arpu_aov](./arpu_aov) | Расчёт ARPU и AOV для оценки монетизации |
+| [average_check](./average_check) | Анализ среднего чека и его динамики |
+| [dau](./dau) | Расчёт Daily Active Users |
+| [wau](./wau) | Расчёт Weekly Active Users |
+| [monthly_recurring_revenue_mrr](./monthly_recurring_revenue_mrr) | Расчёт MRR для подписочной модели |
+| [session_analysis](./session_analysis) | Анализ пользовательских сессий |
+| [promo_calendar](./promo_calendar) | Формирование промо-календаря |
+| [ML_SMAPE](./ML_SMAPE) | Оценка качества прогнозов через SMAPE |

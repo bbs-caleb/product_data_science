@@ -1,22 +1,13 @@
-Summary
-    Experiment design and statistical measurement: A/B testing, hypothesis testing, causal analysis.
+# Experimentation & Causal Inference
 
-    Scope
-    - A/B test design and simulation
-- Hypothesis testing including quantile tests
-- Causal impact analysis
+A/B-тестирование и причинно-следственный анализ.
 
-    Key Skills
-    - Experiment design and inference
-- Assumptions and multiple testing awareness
-- Decision criteria and interpretation
+## Проекты
 
-    Deliverables
-    - Test design artifacts and code
-- Statistical test implementations
-- Decision criteria documented in README/TECH
-
-    Definition of Done
-    - Hypotheses and metrics stated upfront
-- Correct procedure and assumptions
-- Reproducible outputs
+| Проект | Задача |
+|--------|--------|
+| [kaggle_ab_test](./kaggle_ab_test) | Анализ A/B-теста |
+| [smart_link_ii_ab_design](./smart_link_ii_ab_design) | Дизайн A/B-эксперимента для смарт-ссылок |
+| [t_tested_features](./t_tested_features) | Статистическая проверка значимости фичей через t-test |
+| [quantile_t_test](./quantile_t_test) | Квантильный t-test для робастного сравнения |
+| [causal_impact_analysis](./causal_impact_analysis) | Оценка причинно-следственного эффекта интервенций |

@@ -1,22 +1,13 @@
-Summary
-    Lifecycle analytics for retention and churn to support customer value management (CVM).
+# Customer Value Management
 
-    Scope
-    - Retention and cohort retention
-- Churn dataset engineering and modeling validation
-- Lifecycle definitions and segmentation support
+Анализ и прогнозирование поведения клиентов.
 
-    Key Skills
-    - Cohort design and churn labeling
-- Bootstrap and evaluation
-- Leakage checks and stable definitions
+## Проекты
 
-    Deliverables
-    - Cohort/retention queries
-- Churn dataset build and modeling artifacts
-- Validation reports under reports/
-
-    Definition of Done
-    - Correct cohort/grain design
-- Leakage checks documented
-- Clear definitions of retention/churn and evaluation
+| Проект | Задача |
+|--------|--------|
+| [retention_rate](./retention_rate) | Расчёт Retention Rate для оценки Product Market Fit |
+| [cohort_retention](./cohort_retention) | Когортный анализ удержания пользователей |
+| [churn_rate](./churn_rate) | Расчёт показателя оттока клиентов |
+| [churn_rate_bootstrap](./churn_rate_bootstrap) | Оценка доверительных интервалов Churn Rate методом bootstrap |
+| [RFM](./RFM) | RFM-сегментация клиентской базы |
