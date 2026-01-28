@@ -1,4 +1,4 @@
-# Product Data Analyst / Science Portfolio & Most-Used Cases
+# Product Data Analysis / Science Portfolio & Most-Used Cases
 
 Кейсы по продуктовой аналитике, ML и оптимизации бизнес-процессов.
 
