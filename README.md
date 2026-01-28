@@ -1,20 +1,18 @@
-product_data_science
+# Product Data Analyst / Science Portfolio & Most-Used Cases
 
-    Summary
-    Product Data Science monorepo. Organized by product/business domains with simulator tasks as reproducible case studies.
+Кейсы по продуктовой аналитике, ML и оптимизации бизнес-процессов.
 
-Structure
-- `01_product_metrics/` - Product Metrics
-- `02_unit_economics/` - Unit Economics
-- `03_customer_value_management/` - Retention and Churn 
-- `04_marketing_and_growth/` - Predictive Marketing
-- `05_customer_segmentation_scoring/` - Segmentation, clustering and RFM
-- `06_demand_supply_forecasting/` - Demand and Supply Forecasting
-- `07_pricing_revenue_optimization/` - Pricing and Revenue Optimization
-- `08_experimentations/` - A/B Tests and Causal Impact
-- `09_engineering_skills/` - testing, python, etc.
-- `10_data_platform_mlops/` - Data Platform and MLOps
-- `11_ai_nlp_llm_systems/` - AI / NLP / LLM Systems
-- `12_deep_learning_cv/` - Deep Learning and Computer Vision
-    - `catalog.yml` — task registry (domain, status, tags)
-    - `PORTFOLIO.md` — curated highlights for interviews
+## Структура
+
+| Раздел | Описание |
+|--------|----------|
+| [01_product_metrics_and_units_economics](./01_product_metrics_and_units_economics) | Продуктовые метрики и юнит-экономика |
+| [02_customer_value_management](./02_customer_value_management) | Управление ценностью клиента |
+| [03_customer_segmentation_scoring_and_risks](./03_customer_segmentation_scoring_and_risks) | Сегментация, скоринг и рекомендательные системы |
+| [04_marketing_and_uplift](./04_marketing_and_uplift) | Маркетинговая аналитика и uplift-моделирование |
+| [05_demand_supply_forecasting](./05_demand_supply_forecasting) | Прогнозирование спроса и ценообразование |
+| [06_experimentations](./06_experimentations) | A/B-тестирование и причинно-следственный анализ |
+
+## Стек
+
+`Python` `SQL` `ClickHouse` `scikit-learn` `pandas` `statsmodels`
