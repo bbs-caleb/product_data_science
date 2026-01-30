@@ -1,0 +1,6 @@
+
+# editor swap/backup
+*.swp
+*.swo
+*.swx
+*~

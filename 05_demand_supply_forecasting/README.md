@@ -1,25 +1,48 @@
-# Demand & Supply Forecasting
+# Demand & Supply Forecasting (Retail)
 
-Прогнозирование спроса, управление запасами и динамическое ценообразование.
+Портфолио задач из ритейл-контекста: мастер-данные (SKU), качество данных, отчётность/мониторинг, управление запасами и базовые блоки ценообразования и прогнозирования.
 
-## Проекты
+**Стек:** SQL, Python (pandas), Excel/Power BI (как потребители выгрузок/витрин), базовый ML/Time-Series.
 
-| Проект | Задача |
-|--------|--------|
-| [demand_forecast](./demand_forecast) | Прогнозирование спроса на товары |
-| [temporal_fusion_transformers](./temporal_fusion_transformers) | Прогнозирование временных рядов через TFT |
-| [gradient_boosting](./gradient_boosting) | Прогнозирование на градиентном бустинге |
-| [decision_tree](./decision_tree) | Прогнозная модель на деревьях решений |
-| [boosting_uncertainty](./boosting_uncertainty) | Оценка неопределённости прогнозов |
-| [elasticity_feature](./elasticity_feature) | Расчёт ценовой эластичности спроса |
-| [surge_pricing](./surge_pricing) | Динамическое ценообразование |
-| [target_margin](./target_margin) | Расчёт целевой маржинальности |
-| [competitor_price](./competitor_price) | Мониторинг цен конкурентов |
-| [price_parser](./price_parser) | Парсинг и нормализация цен |
-| [stock_supply](./stock_supply) | Управление товарными запасами |
-| [stocks_gmv_inventory_postprocessor](./stocks_gmv_inventory_postprocessor) | Постобработка данных по остаткам и GMV |
-| [sku_distribution](./sku_distribution) | Анализ распределения SKU |
-| [coca_cola_principle](./coca_cola_principle) | Принцип доступности товара |
-| [data_drift](./data_drift) | Детекция дрифта данных |
-| [asymmetric_metrics](./asymmetric_metrics) | Асимметричные функции потерь |
-| [yaml_config_recursion](./yaml_config_recursion) | Рекурсивная загрузка YAML-конфигов |
+---
+
+## 00. Master Data Quality (прямо под JD листинга)
+| № | Проект | Что показывает |
+|---|--------|----------------|
+| 00 | [00_master_data_quality](./00_master_data_quality) | Валидации карточек, штрихкодов, отчёты по ошибкам/дубликатам |
+
+---
+
+## 01–08. Master Data & Data Quality (самое релевантное)
+| № | Проект | Что показывает |
+|---|--------|----------------|
+| 01 | [01_price_parser](./01_price_parser) | Очистка/нормализация цен: форматы, типы, подготовка к загрузке/витринам |
+| 02 | [02_yaml_config_recursion](./02_yaml_config_recursion) | Конфиг-driven правила обработки (меньше ручных правок, воспроизводимость) |
+| 03 | [03_data_drift](./03_data_drift) | Мониторинг качества: дрифт/аномалии/пропуски → сигнал “что ломается” |
+| 04 | [04_ml_smape_debug](./04_ml_smape_debug) | Debug метрики (sMAPE): edge cases, стабильность расчёта, диагностика проблемных строк |
+| 05 | [05_stocks_gmv_inventory_postprocessor](./05_stocks_gmv_inventory_postprocessor) | Постобработка витрин остатков/GMV: консистентность полей и бизнес-правила |
+| 06 | [06_sku_distribution](./06_sku_distribution) | Анализ распределения SKU: перекосы, “дыры” ассортимента, кандидаты на чистку |
+| 07 | [07_stock_supply](./07_stock_supply) | Управление запасами: дефицит/излишек, базовые правила пополнения |
+| 08 | [08_asymmetric_metrics](./08_asymmetric_metrics) | Асимметричные штрафы (недосток vs пересток) — бизнес-логика через метрики |
+
+---
+
+## 09–12. Pricing & Merchandising (второй слой релевантности)
+| № | Проект | Что показывает |
+|---|--------|----------------|
+| 09 | [09_competitor_price](./09_competitor_price) | Мониторинг цен конкурентов: агрегации → сводка для категорийных |
+| 10 | [10_target_margin](./10_target_margin) | Расчёт цен под целевую маржинальность с ограничениями |
+| 11 | [11_coca_cola_principle](./11_coca_cola_principle) | Постпроцессинг цен под бизнес-правила (“не линейно снижать цену”) |
+| 12 | [12_surge_pricing](./12_surge_pricing) | Динамическое ценообразование как набор правил/ограничений |
+
+---
+
+## 13–18. Forecasting (как “плюс”)
+| № | Проект | Что показывает |
+|---|--------|----------------|
+| 13 | [13_demand_forecast](./13_demand_forecast) | Базовый прогноз спроса для планирования |
+| 14 | [14_elasticity_feature](./14_elasticity_feature) | Эластичность спроса: чувствительность SKU к цене |
+| 15 | [15_decision_tree](./15_decision_tree) | Интерпретируемая модель (дерево правил/сегментация) |
+| 16 | [16_gradient_boosting](./16_gradient_boosting) | ML-прогнозирование на бустинге |
+| 17 | [17_boosting_uncertainty](./17_boosting_uncertainty) | Надёжность прогнозов (оценка неопределённости) |
+| 18 | [18_temporal_fusion_transformers](./18_temporal_fusion_transformers) | Продвинутые временные ряды (TFT) |
