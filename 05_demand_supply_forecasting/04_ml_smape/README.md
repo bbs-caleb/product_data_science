@@ -1,30 +1,36 @@
-Summary
-Time-Series Dashboard
+# sMAPE and all other main metrics
 
-Domain
-Product Metrics
+В прогнозировании и регрессии часто используют процентные метрики (MAPE / WAPE / sMAPE).
+С ними есть типичная проблема: **деление на ноль** и **взрывы ошибки на малых фактах**.
 
-Problem Statement
-TODO: Describe the business context and the exact task requirements.
+---
 
-Inputs and Constraints
-TODO: Data schema, granularity, constraints, edge cases.
+## Контекст: MAPE vs sMAPE
+**MAPE**:
+\[
+MAPE = \frac{1}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|
+\]
+Проблема: если \(y_i \approx 0\), ошибка может стать огромной и доминировать.
 
-Approach
-TODO: High-level solution outline. Link to TECH.md for details.
+**sMAPE** (symmetric MAPE):
+\[
+sMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i-\hat{y}_i|}{|y_i|+|\hat{y}_i|}
+\]
+Она “симметричнее” и мягче, но всё ещё имеет **крайний случай**:
+- если \(|y_i| + |\hat{y}_i| = 0\) (то есть \(y_i = 0\) и \(\hat{y}_i = 0\)),
+  возникает \(0/0\).
 
-Validation
-TODO: Checks, tests, sanity checks, evaluation metrics.
+**Конвенция в этой реализации**: для таких точек вклад = 0.
 
-Result
-TODO: Key outputs and brief interpretation.
+---
 
-Runbook
-- TODO: How to reproduce (commands, environment, data assumptions).
+## Быстрый пример
+```python
+import numpy as np
+from src.metrics import smape
 
-Artifacts
-- reports/: figures, tables, final outputs
-- sql/: queries (if applicable)
-- notebooks/: exploration (if applicable)
-- src/: production-style code (if applicable)
-- tests/: automated tests (if applicable)
+y_true = np.array([0.5, 0.2, 100.0])
+y_pred = np.array([50.0, 50.0, 110.0])
+
+print(smape(y_true, y_pred))
+
