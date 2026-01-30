@@ -4,20 +4,13 @@
 
 ---
 
-## 00. data quality
-| № | Проект | Что показывает |
-|---|--------|----------------|
-| 00 | [00_master_data_quality](./00_master_data_quality) | Валидации карточек, штрихкодов, отчёты по ошибкам/дубликатам |
-
----
-
 ## 01–08. Master Data & Data Quality 
 | № | Проект | Что показывает |
 |---|--------|----------------|
 | 01 | [01_price_parser](./01_price_parser) | Очистка/нормализация цен: форматы, типы, подготовка к загрузке/витринам |
 | 02 | [02_yaml_config_recursion](./02_yaml_config_recursion) | Конфиг-driven правила обработки|
 | 03 | [03_data_drift](./03_data_drift) | Мониторинг качества: дрифт/аномалии/пропуски
-| 04 | [04_ml_smape](./04_ml_smape) | Реализция SMAPE: edge cases, стабильность расчёта |
+| 04 | [04_ml_smape](./04_ml_smape) | Основные метрики KPI: WAPE, SMAPE, MSE, RMSE, etc |
 | 05 | [05_stocks_gmv_inventory_postprocessor](./05_stocks_gmv_inventory_postprocessor) | Постобработка витрин остатков/GMV: консистентность полей и бизнес-правила |
 | 06 | [06_sku_distribution](./06_sku_distribution) | Анализ распределения SKU: перекосы, 'дыры' ассортимента, кандидаты на чистку |
 | 07 | [07_stock_supply](./07_stock_supply) | Управление запасами: дефицит/излишек, базовые правила пополнения |
